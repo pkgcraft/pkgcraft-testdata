@@ -44,6 +44,48 @@ invalid = [
   ["/b", "0-"],
   ["a/+b", "0-"],
   [".a/.b", "0-"],
+  # invalid version suffixes
+  ["=a/b-1_a", "0-"],
+  ["=a/b-1_a1", "0-"],
+  # invalid slot deps
+  ["a/b:", "0-"],
+  ["a/b:+", "0-"],
+  ["a/b:+0", "0-"],
+  ["a/b:.a", "0-"],
+  ["a/b:-b", "0-"],
+  ["a/b:a@b", "0-"],
+  ["a/b:0/1", "0-4"],
+  # invalid blockers
+  ["!!!a/b", "0-"],
+  ["!a/b-0", "0-"],
+  ["!!a/b-0-r1", "0-"],
+  # invalid use deps
+  ["a/b[]", "0-"],
+  ["a/b[-]", "0-"],
+  ["a/b[-a?]", "0-"],
+  ["a/b[!a]", "0-"],
+  # invalid use dep defaults
+  ["a/b[(-)]", "0-"],
+  ["a/b[(+)]", "0-"],
+  ["a/b[a()]", "0-"],
+  ["a/b[a(?)]", "0-"],
+  ["a/b[a(b)]", "0-"],
+  ["a/b[a(-+)]", "0-"],
+  ["a/b[a(++)]", "0-"],
+  ["a/b[a((+))]", "0-"],
+  ["a/b[a(-)b]", "0-"],
+  # invalid subslot deps
+  ["a/b:/", "0-"],
+  ["a/b:/0", "0-"],
+  ["a/b:0/", "0-"],
+  ["a/b:0/+1", "0-"],
+  ["a/b:0//1", "0-"],
+  ["a/b:0/1/2", "0-"],
+  # invalid slot ops
+  ["a/b:*0", "0-"],
+  ["a/b:=0", "0-"],
+  ["a/b:*=", "0-"],
+  ["a/b:==", "0-"],
   # package names can't end in a hyphen followed by anything matching a version
   ["a/b-0", "0-"],
   ["<a/b-1-1", "0-"],
@@ -66,6 +108,11 @@ invalid = [
   ["=a/b-0-r*", "0-"],
   # repo deps in no official EAPI
   ['cat/pkg::repo', '0~'],
+  # invalid repo deps
+  ["a/b::", "0-"],
+  ["a/b::-repo", "0-"],
+  ["a/b::repo-1", "0-"],
+  ["a/b::repo@path", "0-"],
 ]
 
 # atom sorting
