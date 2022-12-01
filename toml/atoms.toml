@@ -19,8 +19,8 @@ valid = [
   # slot deps in EAPI >= 1
   { atom = "a/b:0", eapis = "1-", category = "a", package = "b", slot = "0" },
   # blockers in EAPI >= 2
-  { atom = "!a/b", eapis = "2-", category = "a", package = "b" },
-  { atom = "!!a/b", eapis = "2-", category = "a", package = "b" },
+  { atom = "!a/b", eapis = "2-", category = "a", package = "b", blocker = "!" },
+  { atom = "!!a/b", eapis = "2-", category = "a", package = "b", blocker = "!!" },
   # use deps in EAPI >= 2
   { atom = "a/b[use]", eapis = "2-", category = "a", package = "b", use=["use"]},
   { atom = "a/b[a,b=,!c=,d?,!e?,-f]", eapis = "2-", category = "a", package = "b", use=["a", "b=", "!c=", "d?", "!e?", "-f"]},
