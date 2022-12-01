@@ -22,12 +22,12 @@ valid = [
   { atom = "!a/b", eapis = "2-", category = "a", package = "b" },
   { atom = "!!a/b", eapis = "2-", category = "a", package = "b" },
   # use deps in EAPI >= 2
-  { atom = "a/b[use]", eapis = "2-", category = "a", package = "b" },
-  { atom = "a/b[a,b=,!c=,d?,!e?,-f]", eapis = "2-", category = "a", package = "b" },
+  { atom = "a/b[use]", eapis = "2-", category = "a", package = "b", use=["use"]},
+  { atom = "a/b[a,b=,!c=,d?,!e?,-f]", eapis = "2-", category = "a", package = "b", use=["a", "b=", "!c=", "d?", "!e?", "-f"]},
   # use dep defaults in EAPI >= 4
-  { atom = "a/b[use(+)]", eapis = "4-", category = "a", package = "b" },
-  { atom = "a/b[use(-)]", eapis = "4-", category = "a", package = "b" },
-  { atom = "a/b[a(-),b(+)=,!c(-)=,d(+)?,!e(-)?,-f(+)]", eapis = "4-", category = "a", package = "b" },
+  { atom = "a/b[use(+)]", eapis = "4-", category = "a", package = "b", use=["use(+)"]},
+  { atom = "a/b[use(-)]", eapis = "4-", category = "a", package = "b", use=["use(-)"]},
+  { atom = "a/b[a(-),b(+)=,!c(-)=,d(+)?,!e(-)?,-f(+)]", eapis = "4-", category = "a", package = "b", use=["a(-)", "b(+)=", "!c(-)=", "d(+)?", "!e(-)?", "-f(+)"]},
   # subslot deps in EAPI >= 5
   { atom = "a/b:0/1", eapis = "5-", category = "a", package = "b", slot = "0", subslot = "1" },
   # slot operators in EAPI >= 5
