@@ -115,6 +115,15 @@ invalid = [
   ["a/b::repo@path", "0-"],
 ]
 
+# atom comparison
+# format: expression that evaluates to true
+compares = [
+  # duplicate use deps
+  "a/b[u] == a/b[u,u]",
+  # differently ordered use deps
+  "a/b[a,b] == a/b[b,a]",
+]
+
 # atom sorting
 # format: [unsorted, sorted]
 sorting = [
