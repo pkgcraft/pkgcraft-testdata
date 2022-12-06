@@ -34,6 +34,8 @@ valid = [
   { atom = "a/b:*", eapis = "5-", category = "a", package = "b", slot_op = "*" },
   { atom = "a/b:=", eapis = "5-", category = "a", package = "b", slot_op = "=" },
   { atom = "a/b:0=", eapis = "5-", category = "a", package = "b", slot = "0", slot_op = "=" },
+  # all official fields
+  { atom = "!!=cat/pkg-1-r2:3/4=[a,b,c]", eapis = "5-", category = "cat", package = "pkg", blocker = "!!", version = "=1-r2", revision = "2", slot = "3", subslot = "4", slot_op = "=", use = ["a", "b", "c"]},
 ]
 
 # invalid atoms
