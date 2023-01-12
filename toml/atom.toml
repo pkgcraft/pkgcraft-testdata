@@ -122,38 +122,38 @@ compares = [
   "a/b[a,b] == a/b[b,a]",
 ]
 
-# format: [sorted]
+# format: [sorted, equal]
 sorting = [
   ## Attributes
   # categories
-  ["a/pkg", "b/pkg", "c/pkg"],
+  [["a/pkg", "b/pkg", "c/pkg"], false],
   # packages
-  ["cat/a", "cat/b", "cat/c"],
+  [["cat/a", "cat/b", "cat/c"], false],
   # blocks
-  ["a/b", "!!a/b", "!a/b"],
+  [["a/b", "!!a/b", "!a/b"], false],
   # slots
-  ["a/b:0", "a/b:1", "a/b:2"],
+  [["a/b:0", "a/b:1", "a/b:2"], false],
   # subslots
-  ["a/b:0/0", "a/b:0/1", "a/b:0/2"],
+  [["a/b:0/0", "a/b:0/1", "a/b:0/2"], false],
   # slot operators
-  ["a/b", "a/b:=", "a/b:*", "a/b:0", "a/b:0=", "a/b:0/1="],
+  [["a/b", "a/b:=", "a/b:*", "a/b:0", "a/b:0=", "a/b:0/1="], false],
   # use deps
-  ["a/b[a]", "a/b[b]", "a/b[c]"],
+  [["a/b[a]", "a/b[b]", "a/b[c]"], false],
 
   ## Versions
   # equal versions shouldn't be sorted
-  ["=a/b-0", "=a/b-00", "=a/b-0-r0"],
-  ["=a/b-1.0.2", "=a/b-1.0.2-r0", "=a/b-1.000.2"],
+  [["=a/b-0", "=a/b-00", "=a/b-0-r0"], true],
+  [["=a/b-1.0.2", "=a/b-1.0.2-r0", "=a/b-1.000.2"], true],
   # simple versions
-  ["=a/b-0", "=a/b-1", "=a/b-2"],
-  ["=a/b-1.1", "=a/b-1.10", "=a/b-1.100"],
+  [["=a/b-0", "=a/b-1", "=a/b-2"], false],
+  [["=a/b-1.1", "=a/b-1.10", "=a/b-1.100"], false],
   # operators
-  ["<a/b-1", "<=a/b-1", "=a/b-1", "=a/b-1*", "~a/b-1", ">=a/b-1", ">a/b-1"],
+  [["<a/b-1", "<=a/b-1", "=a/b-1", "=a/b-1*", "~a/b-1", ">=a/b-1", ">a/b-1"], false],
   # letter suffixes
-  ["=a/b-1a", "=a/b-1b", "=a/b-1y", "=a/b-1z"],
+  [["=a/b-1a", "=a/b-1b", "=a/b-1y", "=a/b-1z"], false],
   # release suffixes
-  ["=a/b-1_alpha", "=a/b-1_beta", "=a/b-1_pre", "=a/b-1_rc", "=a/b-1_p"],
-  ["=a/b-1_p0", "=a/b-1_p1", "=a/b-1_p2"],
+  [["=a/b-1_alpha", "=a/b-1_beta", "=a/b-1_pre", "=a/b-1_rc", "=a/b-1_p"], false],
+  [["=a/b-1_p0", "=a/b-1_p1", "=a/b-1_p2"], false],
   # revisions
-  ["=a/b-1-r0", "=a/b-1-r1", "=a/b-1-r2"],
+  [["=a/b-1-r0", "=a/b-1-r1", "=a/b-1-r2"], false],
 ]
