@@ -40,7 +40,6 @@ valid = [
   { atom="cat/pkg::repo", eapis="U..", category="cat", package = "pkg", repo = "repo"},
 ]
 
-# invalid atoms
 invalid = [
   "",
   "a",
@@ -115,7 +114,6 @@ invalid = [
   "a/b::repo@path",
 ]
 
-# atom comparison
 # format: expression that evaluates to true
 compares = [
   # duplicate use deps
@@ -124,7 +122,6 @@ compares = [
   "a/b[a,b] == a/b[b,a]",
 ]
 
-# atom sorting
 # format: [sorted]
 sorting = [
   ## Attributes
