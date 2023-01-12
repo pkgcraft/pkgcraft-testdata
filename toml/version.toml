@@ -54,21 +54,20 @@ compares = [
   "1.0.2_pre01-r2 > 1.00.2_pre001-r1",
 ]
 
-# format: [sorted, equal]
 sorting = [
   # equal versions aren't sorted
-  [["0", "00", "0-r0", "0-r00"], true],
-  [["1.0.2", "1.0.2-r0", "1.000.2"], true],
+  { sorted = ["0", "00", "0-r0", "0-r00"], equal = true },
+  { sorted = ["1.0.2", "1.0.2-r0", "1.000.2"], equal = true },
   # simple versions
-  [["0", "1", "2", "3"], false],
-  [["1.1", "1.10", "1.100"], false],
+  { sorted = ["0", "1", "2", "3"], equal = false },
+  { sorted = ["1.1", "1.10", "1.100"], equal = false },
   # letter suffixes
-  [["1a", "1b", "1y", "1z"], false],
+  { sorted = ["1a", "1b", "1y", "1z"], equal = false },
   # release suffixes
-  [["1_alpha", "1_beta", "1_pre", "1_rc", "1_p"], false],
-  [["1_p0", "1_p1", "1_p2"], false],
+  { sorted = ["1_alpha", "1_beta", "1_pre", "1_rc", "1_p"], equal = false },
+  { sorted = ["1_p0", "1_p1", "1_p2"], equal = false },
   # revision suffixes
-  [["1-r0", "1-r1", "1-r2"], false],
+  { sorted = ["1-r0", "1-r1", "1-r2"], equal = false },
 ]
 
 # format: [versions, number of hashed versions]
