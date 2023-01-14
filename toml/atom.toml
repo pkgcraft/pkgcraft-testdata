@@ -138,6 +138,31 @@ sorting = [
   { sorted = ["a/b", "a/b:=", "a/b:*", "a/b:0", "a/b:0=", "a/b:0/1="], equal = false },
   # use deps
   { sorted = ["a/b[a]", "a/b[b]", "a/b[c]"], equal = false },
+  # precedence
+  { sorted = [
+    # category
+    "!>a/b-2-r2:2/2[b]::b", "!!=b/a-1-r1:1/1[a]::a",
+    # package
+    "!>b/a-2-r2:2/2[b]::b", "!!=b/b-1-r1:1/1[a]::a",
+    # version
+    "!>b/b-1-r2:2/2[b]::b", "!!=b/b-2-r1:1/1[a]::a",
+    # revision
+    "!>b/b-2-r1:2/2[b]::b", "!!=b/b-2-r2:1/1[a]::a",
+    # operator
+    "!=b/b-2-r2:2/2[b]::b", "!!>b/b-2-r2:1/1[a]::a",
+    # blocker
+    "!!>b/b-2-r2:2/2[b]::b", "!>b/b-2-r2:1/1[a]::a",
+    # slot
+    "!>b/b-2-r2:1/1[b]::b", "!>b/b-2-r2:2/1[a]::a",
+    # subslot
+    "!>b/b-2-r2:2/1[b]::b", "!>b/b-2-r2:2/2[a]::a",
+    # slot op
+    "!>b/b-2-r2:2/2[b]::b", "!>b/b-2-r2:2/2=[a]::a",
+    # use deps
+    "!>b/b-2-r2:2/2=[a]::b", "!>b/b-2-r2:2/2=[b]::a",
+    # repo
+    "!>b/b-2-r2:2/2=[b]::a", "!>b/b-2-r2:2/2=[b]::b",
+    ], equal = false },
 
   ## Versions
   # equal versions shouldn't be sorted
