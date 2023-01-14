@@ -68,6 +68,23 @@ sorting = [
   { sorted = ["1_p0", "1_p1", "1_p2"], equal = false },
   # revision suffixes
   { sorted = ["1-r0", "1-r1", "1-r2"], equal = false },
+  # precedence
+  { sorted = [
+    # major version
+    "1.2.2b_beta2-r2", "2.1.1a_alpha1-r1",
+    # minor version
+    "2.1.1b_beta2-r2", "2.2.1a_alpha1-r1",
+    # patch version
+    "2.2.1b_beta2-r2", "2.2.2a_alpha1-r1",
+    # letter suffix
+    "2.2.2a_beta2-r2", "2.2.2b_alpha1-r1",
+    # release suffix
+    "2.2.2b_alpha2-r2", "2.2.2b_beta1-r1",
+    # release suffix version
+    "2.2.2b_beta1-r2", "2.2.2b_beta2-r1",
+    # revision
+    "2.2.2b_beta2-r1", "2.2.2b_beta2-r2",
+    ], equal = false },
 ]
 
 hashing = [
