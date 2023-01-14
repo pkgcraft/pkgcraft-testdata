@@ -18,26 +18,34 @@ valid = [
   ## EAPI specific validity
   # slot deps in EAPI >= 1
   { atom = "a/b:0", eapis = "1..", category = "a", package = "b", slot = "0" },
+  { atom = "a/b:_", eapis = "1..", category = "a", package = "b", slot = "_" },
+  { atom = "a/b:slot", eapis = "1..", category = "a", package = "b", slot = "slot" },
+  { atom = "a/b:S-1.2+3", eapis = "1..", category = "a", package = "b", slot = "S-1.2+3" },
   # blockers in EAPI >= 2
   { atom = "!a/b", eapis = "2..", category = "a", package = "b", blocker = "!" },
   { atom = "!!a/b", eapis = "2..", category = "a", package = "b", blocker = "!!" },
   # use deps in EAPI >= 2
-  { atom = "a/b[use]", eapis = "2..", category = "a", package = "b", use = ["use"]},
-  { atom = "a/b[a,b=,!c=,d?,!e?,-f]", eapis = "2..", category = "a", package = "b", use = ["a", "b=", "!c=", "d?", "!e?", "-f"]},
+  { atom = "a/b[u]", eapis = "2..", category = "a", package = "b", use = ["u"] },
+  { atom = "a/b[1,2]", eapis = "2..", category = "a", package = "b", use = ["1", "2"] },
+  { atom = "a/b[u-,u+]", eapis = "2..", category = "a", package = "b", use = ["u-", "u+"] },
+  { atom = "a/b[a,b=,!c=,d?,!e?,-f]", eapis = "2..", category = "a", package = "b", use = ["a", "b=", "!c=", "d?", "!e?", "-f"] },
   # use dep defaults in EAPI >= 4
-  { atom = "a/b[use(+)]", eapis = "4..", category = "a", package = "b", use = ["use(+)"]},
-  { atom = "a/b[use(-)]", eapis = "4..", category = "a", package = "b", use = ["use(-)"]},
-  { atom = "a/b[a(-),b(+)=,!c(-)=,d(+)?,!e(-)?,-f(+)]", eapis = "4..", category = "a", package = "b", use = ["a(-)", "b(+)=", "!c(-)=", "d(+)?", "!e(-)?", "-f(+)"]},
+  { atom = "a/b[use(+)]", eapis = "4..", category = "a", package = "b", use = ["use(+)"] },
+  { atom = "a/b[use(-)]", eapis = "4..", category = "a", package = "b", use = ["use(-)"] },
+  { atom = "a/b[a(-),b(+)=,!c(-)=,d(+)?,!e(-)?,-f(+)]", eapis = "4..", category = "a", package = "b", use = ["a(-)", "b(+)=", "!c(-)=", "d(+)?", "!e(-)?", "-f(+)"] },
   # subslot deps in EAPI >= 5
   { atom = "a/b:0/1", eapis = "5..", category = "a", package = "b", slot = "0", subslot = "1" },
+  { atom = "a/b:_/_", eapis = "5..", category = "a", package = "b", slot = "_", subslot = "_" },
+  { atom = "a/b:_/slot", eapis = "5..", category = "a", package = "b", slot = "_", subslot = "slot" },
+  { atom = "a/b:_/S-1.2+3", eapis = "5..", category = "a", package = "b", slot = "_", subslot = "S-1.2+3" },
   # slot operators in EAPI >= 5
   { atom = "a/b:*", eapis = "5..", category = "a", package = "b", slot_op = "*" },
   { atom = "a/b:=", eapis = "5..", category = "a", package = "b", slot_op = "=" },
   { atom = "a/b:0=", eapis = "5..", category = "a", package = "b", slot = "0", slot_op = "=" },
   # all official fields
-  { atom = "!!=cat/pkg-1-r2:3/4=[a,b,c]", eapis = "5..", category = "cat", package = "pkg", blocker = "!!", version = "=1-r2", revision = "2", slot = "3", subslot = "4", slot_op = "=", use = ["a", "b", "c"]},
+  { atom = "!!=cat/pkg-1-r2:3/4=[a,b,c]", eapis = "5..", category = "cat", package = "pkg", blocker = "!!", version = "=1-r2", revision = "2", slot = "3", subslot = "4", slot_op = "=", use = ["a", "b", "c"] },
   # repo deps in unofficial EAPIs
-  { atom="cat/pkg::repo", eapis="U..", category="cat", package = "pkg", repo = "repo"},
+  { atom="cat/pkg::repo", eapis="U..", category="cat", package = "pkg", repo = "repo" },
 ]
 
 invalid = [
@@ -62,12 +70,20 @@ invalid = [
   "!!a/b-0-r1",
   # invalid use deps
   "a/b[]",
+  "a/b[,]",
+  "a/b[u,]",
+  "a/b[,u]",
   "a/b[-]",
+  "a/b[+u]",
+  "a/b[?]",
+  "a/b[?u]",
+  "a/b[u??]",
   "a/b[-a?]",
   "a/b[!a]",
   # invalid use dep defaults
   "a/b[(-)]",
-  "a/b[(+)]",
+  "a/b[(-)u]",
+  "a/b[u(+)(-)]",
   "a/b[a()]",
   "a/b[a(?)]",
   "a/b[a(b)]",
@@ -84,6 +100,8 @@ invalid = [
   "a/b:0/1/2",
   # invalid slot ops
   "a/b:*0",
+  "a/b:0*",
+  "a/b:0/1*",
   "a/b:=0",
   "a/b:*=",
   "a/b:==",
