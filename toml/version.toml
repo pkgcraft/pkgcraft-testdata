@@ -54,6 +54,23 @@ compares = [
   "1.0.2_pre01-r2 > 1.00.2_pre001-r1",
 ]
 
+intersects = [
+  # equal non-op versions
+  { vals = ["0", "00", "0-r0", "0-r00"], status = true },
+  { vals = ["1.0.2", "1.0.2-r0", "1.000.2"], status = true },
+  # unequal non-op versions
+  { vals = ["0", "1", "2", "3"], status = false },
+  { vals = ["1.1", "1.10", "1.100"], status = false },
+  # non-op and op versions
+  { vals = ["0", "<0"], status = false },
+  { vals = ["0", "<=0"], status = true },
+  { vals = ["0", "=0"], status = true },
+  { vals = ["0", "=0*"], status = true },
+  { vals = ["0", "~0"], status = true },
+  { vals = ["0", ">=0"], status = true },
+  { vals = ["0", ">0"], status = false },
+]
+
 sorting = [
   # equal versions aren't sorted
   { sorted = ["0", "00", "0-r0", "0-r00"], equal = true },
