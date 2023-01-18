@@ -59,7 +59,7 @@ intersects = [
   { vals = ["0", "00", "0-r0", "0-r00"], status = true },
   { vals = ["1.0.2", "1.0.2-r0", "1.000.2"], status = true },
   # unequal non-op versions
-  { vals = ["0", "1", "2", "3"], status = false },
+  { vals = ["0", "1", "2"], status = false },
   { vals = ["1.1", "1.10", "1.100"], status = false },
   # non-op and op versions
   { vals = ["0", "<0"], status = false },
@@ -76,7 +76,7 @@ sorting = [
   { sorted = ["0", "00", "0-r0", "0-r00"], equal = true },
   { sorted = ["1.0.2", "1.0.2-r0", "1.000.2"], equal = true },
   # simple versions
-  { sorted = ["0", "1", "2", "3"], equal = false },
+  { sorted = ["0", "1", "2"], equal = false },
   { sorted = ["1.1", "1.10", "1.100"], equal = false },
   # letter suffixes
   { sorted = ["1a", "1b", "1y", "1z"], equal = false },
