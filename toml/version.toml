@@ -94,6 +94,9 @@ intersects = [
   { vals = ["<=0", ">1"], status = false },
   { vals = ["<=0", ">=1"], status = false },
   { vals = [">0-r1", "<0-r1"], status = false },
+  { vals = [">1", "<1"], status = false },
+  { vals = [">1", "<=1"], status = false },
+  { vals = [">=1", "<1"], status = false },
   # unbounded and approximate
   { vals = [">1", "~1"], status = true },
   { vals = [">=1", "~1"], status = true },
