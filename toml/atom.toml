@@ -141,20 +141,23 @@ compares = [
 ]
 
 intersects = [
-  # equal versions
-  { vals = ["=a/b-0", "=a/b-00", "=a/b-0-r0"], status = true },
-  { vals = ["=a/b-1.0.2", "=a/b-1.0.2-r0", "=a/b-1.000.2"], status = true },
-  # unequal versions
-  { vals = ["=a/b-0", "=a/b-1", "=a/b-2"], status = false },
-  { vals = ["=a/b-1.1", "=a/b-1.10", "=a/b-1.100"], status = false },
-  # CPV and atoms
-  { vals = ["a/b-0", "<a/b-0"], status = false },
-  { vals = ["a/b-0", "<=a/b-0"], status = true },
-  { vals = ["a/b-0", "=a/b-0"], status = true },
-  { vals = ["a/b-0", "=a/b-0*"], status = true },
-  { vals = ["a/b-0", "~a/b-0"], status = true },
-  { vals = ["a/b-0", ">=a/b-0"], status = true },
-  { vals = ["a/b-0", ">a/b-0"], status = false },
+  # categories
+  { vals = ["cat-a/pkg", "cat-b/pkg"], status = false },
+  # packages
+  { vals = ["cat/pkg-a", "cat/pkg-b"], status = false },
+  # slots
+  { vals = ["cat/pkg:0", "cat/pkg:1"], status = false },
+  # subslots
+  { vals = ["cat/pkg:0/0", "cat/pkg:0/1"], status = false },
+  # use deps
+  { vals = ["cat/pkg", "cat/pkg[u]"], status = true },
+  { vals = ["cat/pkg[u1]", "cat/pkg[u1,u2]"], status = true },
+  { vals = ["cat/pkg[u1]", "cat/pkg[u2]"], status = true },
+  { vals = ["cat/pkg[-u]", "cat/pkg[u]"], status = false },
+  # repo deps
+  { vals = ["cat/pkg::a", "cat/pkg::b"], status = false },
+  # non-versioned and versioned
+  { vals = ["cat/pkg", "cat/pkg-1"], status = true },
 ]
 
 sorting = [
