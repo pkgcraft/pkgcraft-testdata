@@ -1,7 +1,7 @@
 EAPI=0
 EAPIS_SUPPORTED=8..
 
-DESCRIPTION="test insopts/exeopts consistency for install functions"
+DESCRIPTION="insopts/exeopts consistency for install functions"
 SLOT=0
 
 src_install() {
