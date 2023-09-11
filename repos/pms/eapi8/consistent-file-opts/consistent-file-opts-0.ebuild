@@ -10,7 +10,7 @@ src_install() {
 	insopts -m0777
 	doconfd file
 	doenvd file
-	has ${EAPI} ${SUPPORTED_EAPIS} && doheader file
+	has ${EAPI} ${EAPIS_SUPPORTED} && doheader file
 
 	exeopts -m0777
 	doinitd file
