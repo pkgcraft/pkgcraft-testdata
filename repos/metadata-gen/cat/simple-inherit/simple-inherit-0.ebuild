@@ -1,4 +1,4 @@
-EAPI=0
+EAPI=8
 inherit a
 DESCRIPTION="simple inherit"
 SLOT=0
