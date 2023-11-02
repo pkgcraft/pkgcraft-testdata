@@ -27,11 +27,13 @@ valid = [
   # use deps in EAPI >= 2
   { dep = "a/b[u]", eapis = "2..", category = "a", package = "b", use = ["u"] },
   { dep = "a/b[1,2]", eapis = "2..", category = "a", package = "b", use = ["1", "2"] },
+  { dep = "a/b[u,-u]", eapis = "2..", category = "a", package = "b", use = ["u", "-u"] },
   { dep = "a/b[u-,u+]", eapis = "2..", category = "a", package = "b", use = ["u-", "u+"] },
   { dep = "a/b[a,b=,!c=,d?,!e?,-f]", eapis = "2..", category = "a", package = "b", use = ["a", "b=", "!c=", "d?", "!e?", "-f"] },
   # use dep defaults in EAPI >= 4
-  { dep = "a/b[use(+)]", eapis = "4..", category = "a", package = "b", use = ["use(+)"] },
-  { dep = "a/b[use(-)]", eapis = "4..", category = "a", package = "b", use = ["use(-)"] },
+  { dep = "a/b[u(+)]", eapis = "4..", category = "a", package = "b", use = ["u(+)"] },
+  { dep = "a/b[u(-)]", eapis = "4..", category = "a", package = "b", use = ["u(-)"] },
+  { dep = "a/b[u(-),u(+)]", eapis = "4..", category = "a", package = "b", use = ["u(-)", "u(+)"] },
   { dep = "a/b[a(-),b(+)=,!c(-)=,d(+)?,!e(-)?,-f(+)]", eapis = "4..", category = "a", package = "b", use = ["a(-)", "b(+)=", "!c(-)=", "d(+)?", "!e(-)?", "-f(+)"] },
   # subslot deps in EAPI >= 5
   { dep = "a/b:0/1", eapis = "5..", category = "a", package = "b", slot = "0", subslot = "1" },
@@ -140,6 +142,9 @@ compares = [
   "a/b[u] == a/b[u,u]",
   # differently ordered use deps
   "a/b[a,b] == a/b[b,a]",
+  # different sets of use deps
+  "a/b[u] != a/b[u,u(+)]",
+  "a/b[u] != a/b[u,-u]",
 ]
 
 intersects = [
