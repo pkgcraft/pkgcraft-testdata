@@ -113,8 +113,10 @@ invalid = [
   # version operator with missing version
   "~a/b",
   "~a/b-r1",
-  ">a/b",
-  ">=a/b-r1",
+  "<a/b1a",
+  "<=a/b0",
+  ">=a/b1-r1",
+  ">a/b1.1",
   # '~' operator can't be used with a revision
   "~a/b-1-r1",
   # '*' suffix can only be used for versioned deps with the '=' operator
