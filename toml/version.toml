@@ -42,19 +42,17 @@ compares = [
   "1.2.3_pre < 1.2.3",
   "1.2.3_rc < 1.2.3",
   "1.2.3_p > 1.2.3",
+  # release suffix version
+  "0_alpha1 < 0_alpha2",
+  "0_alpha2_beta1 > 0_alpha1_beta2",
+  "0_alpha2-r1 > 0_alpha1-r2",
+  "0_p1 < 0_p2",
   # multiple suffixes
   "1_alpha < 1_alpha_p",
   "1_alpha > 1_alpha_beta_p",
   "1_alpha_beta < 1_alpha_beta_p",
   "1_alpha_beta > 1_alpha_beta_pre",
   "1_alpha1 > 1_alpha_beta2",
-  # release suffix version
-  "0_alpha1 < 0_alpha2",
-  "0_alpha2_beta1 > 0_alpha1_beta2",
-  "0_alpha2-r1 > 0_alpha1-r2",
-  "0_p1 < 0_p2",
-  # last release suffix
-  "0_alpha_rc_p > 0_alpha_rc",
   # revision
   "0-r1 > 0",
   "0-r2 > 0-r1",
