@@ -19,6 +19,8 @@ valid = [
 ]
 
 invalid = [
+  "-1",
+  "a",
   "1a-1",
   "~2-r1",
   # numerical overflow -- u64::max + 1
