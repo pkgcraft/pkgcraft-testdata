@@ -169,7 +169,7 @@ sorting = [
   # revision suffixes
   { sorted = ["1-r0", "1-r1", "1-r2"], equal = false },
   # operators
-  { sorted = [">1", ">=1", "~1", "=1*", "=1", "<=1", "<1"], equal = true },
+  { sorted = ["<1", "<=1", "=1", "=1*", "~1", ">=1", ">1"], equal = false },
   # precedence
   { sorted = [
     # major version
