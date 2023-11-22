@@ -159,6 +159,7 @@ intersects = [
 sorting = [
   # equal versions aren't sorted
   { sorted = ["0", "00", "0-r0", "0-r00"], equal = true },
+  { sorted = ["1-r1", "01-r01", "001-r1", "1-r001"], equal = true },
   { sorted = ["1.0.2", "1.0.2-r0", "1.000.2"], equal = true },
   # simple versions
   { sorted = ["0", "1", "2"], equal = false },
