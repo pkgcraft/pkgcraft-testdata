@@ -48,6 +48,7 @@ valid = [
   { dep = "!!=cat/pkg-1-r2:3/4=[a,b,c]", eapis = "5..", category = "cat", package = "pkg", blocker = "!!", version = "=1-r2", revision = "2", slot = "3", subslot = "4", slot_op = "=", use = ["a", "b", "c"] },
   # repo deps in unofficial EAPIs
   { dep="cat/pkg::repo", eapis="U..", category="cat", package = "pkg", repo = "repo" },
+  { dep = "!!=cat/pkg-1-r2:3/4=::repo[a,b,c]", eapis = "U..", category = "cat", package = "pkg", blocker = "!!", version = "=1-r2", revision = "2", slot = "3", subslot = "4", slot_op = "=", repo = "repo", use = ["a", "b", "c"] },
 ]
 
 invalid = [
@@ -186,27 +187,27 @@ sorting = [
   # precedence
   { sorted = [
     # category
-    "!>a/b-2-r2:2/2[b]::b", "!!=b/a-1-r1:1/1[a]::a",
+    "!>a/b-2-r2:2/2::b[b]", "!!=b/a-1-r1:1/1::a[a]",
     # package
-    "!>b/a-2-r2:2/2[b]::b", "!!=b/b-1-r1:1/1[a]::a",
+    "!>b/a-2-r2:2/2::b[b]", "!!=b/b-1-r1:1/1::a[a]",
     # version
-    "!>b/b-1-r2:2/2[b]::b", "!!=b/b-2-r1:1/1[a]::a",
+    "!>b/b-1-r2:2/2::b[b]", "!!=b/b-2-r1:1/1::a[a]",
     # revision
-    "!>b/b-2-r1:2/2[b]::b", "!!=b/b-2-r2:1/1[a]::a",
+    "!>b/b-2-r1:2/2::b[b]", "!!=b/b-2-r2:1/1::a[a]",
     # operator
-    "!=b/b-2-r2:2/2[b]::b", "!!>b/b-2-r2:1/1[a]::a",
+    "!=b/b-2-r2:2/2::b[b]", "!!>b/b-2-r2:1/1::a[a]",
     # blocker
-    "!!>b/b-2-r2:2/2[b]::b", "!>b/b-2-r2:1/1[a]::a",
+    "!!>b/b-2-r2:2/2::b[b]", "!>b/b-2-r2:1/1::a[a]",
     # slot
-    "!>b/b-2-r2:1/1[b]::b", "!>b/b-2-r2:2/1[a]::a",
+    "!>b/b-2-r2:1/1::b[b]", "!>b/b-2-r2:2/1::a[a]",
     # subslot
-    "!>b/b-2-r2:2/1[b]::b", "!>b/b-2-r2:2/2[a]::a",
+    "!>b/b-2-r2:2/1::b[b]", "!>b/b-2-r2:2/2::a[a]",
     # slot op
-    "!>b/b-2-r2:2/2[b]::b", "!>b/b-2-r2:2/2=[a]::a",
+    "!>b/b-2-r2:2/2::b[b]", "!>b/b-2-r2:2/2=::a[a]",
     # use deps
-    "!>b/b-2-r2:2/2=[a]::b", "!>b/b-2-r2:2/2=[b]::a",
+    "!>b/b-2-r2:2/2=::b[a]", "!>b/b-2-r2:2/2=::a[b]",
     # repo
-    "!>b/b-2-r2:2/2=[b]::a", "!>b/b-2-r2:2/2=[b]::b",
+    "!>b/b-2-r2:2/2=::a[b]", "!>b/b-2-r2:2/2=::b[b]",
     ], equal = false },
 
   ## Versions
