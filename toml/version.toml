@@ -114,6 +114,12 @@ intersects = [
   { vals = ["0", "~0"], status = true },
   { vals = ["0", ">=0"], status = true },
   { vals = ["0", ">0"], status = false },
+  # non-op and op versions with letter suffixes
+  { vals = ["1", "<1a"], status = true },
+  { vals = ["1a", "<1a"], status = false },
+  { vals = ["1a", "<=1a"], status = true },
+  { vals = ["1a", "<1b"], status = true },
+  { vals = ["1a", "<1.1"], status = true },
   # both unbounded in the same direction
   { vals = ["<0", "<100"], status = true },
   { vals = ["<0", "<=100"], status = true },
