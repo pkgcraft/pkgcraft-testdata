@@ -114,12 +114,6 @@ intersects = [
   { vals = ["0", "~0"], status = true },
   { vals = ["0", ">=0"], status = true },
   { vals = ["0", ">0"], status = false },
-  # non-op and op versions with letter suffixes
-  { vals = ["1", "<1a"], status = true },
-  { vals = ["1a", "<1a"], status = false },
-  { vals = ["1a", "<=1a"], status = true },
-  { vals = ["1a", "<1b"], status = true },
-  { vals = ["1a", "<1.1"], status = true },
   # both unbounded in the same direction
   { vals = ["<0", "<100"], status = true },
   { vals = ["<0", "<=100"], status = true },
@@ -167,6 +161,31 @@ intersects = [
   { vals = ["<1-r1", "=1*"], status = true },
   { vals = ["<=1-r1", "=1*"], status = true },
   { vals = ["<1", "=1-r1*"], status = false },
+  # approximate and glob with letter suffixes
+  { vals = ["~1", "=1a*"], status = false },
+  { vals = ["~1.1", "=1a*"], status = false },
+  { vals = ["~1a", "=1a*"], status = true },
+  { vals = ["~1a", "=1b*"], status = false },
+  { vals = ["~1a", "=1.1*"], status = false },
+  { vals = ["~1a", "=1_alpha*"], status = false },
+  # approximate and glob with release suffixes
+  { vals = ["~1", "=1_p*"], status = false },
+  { vals = ["~1.1", "=1_p*"], status = false },
+  { vals = ["~1_p", "=1_p*"], status = true },
+  { vals = ["~1_rc", "=1_p*"], status = false },
+  { vals = ["~1_p", "=1.1*"], status = false },
+  { vals = ["~1_p", "=1-r1*"], status = false },
+  # approximate and glob with release suffix versions
+  { vals = ["~1_rc1_p", "=1_rc_p*"], status = false },
+  { vals = ["~1_p1", "=1_p2*"], status = false },
+  { vals = ["~1_p", "=1_p1*"], status = false },
+  { vals = ["~1_p1", "=1_p*"], status = true },
+  # approximate and glob with revisions
+  { vals = [">=1.1-r1", "=1-r1*"], status = false },
+  { vals = [">=1-r12", "=1-r1*"], status = true },
+  { vals = [">=1-r1", "=1-r2*"], status = true },
+  { vals = [">=1", "=1-r1*"], status = true },
+  { vals = [">=1-r1", "=1*"], status = true },
 ]
 
 sorting = [
