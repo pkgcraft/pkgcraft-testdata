@@ -1,8 +1,15 @@
+BDEPEND=cat/pkg ebuild/pkg eclass/pkg a/pkg b/pkg
 DEFINED_PHASES=-
+DEPEND=cat/pkg ebuild/pkg eclass/pkg a/pkg b/pkg
 DESCRIPTION=ebuild with indirect eclass inherit
 EAPI=8
+IDEPEND=cat/pkg ebuild/pkg eclass/pkg a/pkg b/pkg
 INHERIT=b
+IUSE=global ebuild eclass a b
 LICENSE=l1
+PDEPEND=cat/pkg ebuild/pkg eclass/pkg a/pkg b/pkg
+RDEPEND=cat/pkg ebuild/pkg eclass/pkg a/pkg b/pkg
+REQUIRED_USE=global ebuild eclass a b
 SLOT=0
-_eclasses_=b	41d871cfc4e2ec0954d011cad6512a4f	a	e84ea35911850d16305c29fe24d82f17
-_md5_=72e4316de6e823f627e66ebc3348c414
+_eclasses_=b	dd7d9b2f7cf4dd18ea14748aee6d91a9	a	9cf20dbc2cf584f4060650bf28451429
+_md5_=fcc71532c2cb27e743abe148c1afe934
