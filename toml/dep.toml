@@ -9,6 +9,8 @@ valid = [
   { dep = "<a/b-r0-1-r2", eapis = "..", category = "a", package = "b-r0", version = "<1-r2", revision = "2" },
   { dep = "<=a/b-1", eapis = "..", category = "a", package = "b", version = "<=1" },
   { dep = "=a/b-1-r1", eapis = "..", category = "a", package = "b", version = "=1-r1", revision = "1"},
+  { dep = "=a/b--1", eapis = "..", category = "a", package = "b-", version = "=1" },
+  { dep = "=a/b-r1-2", eapis = "..", category = "a", package = "b-r1", version = "=2" },
   { dep = "=a/b-3*", eapis = "..", category = "a", package = "b", version = "=3*" },
   { dep = "=a/b-3-r1*", eapis = "..", category = "a", package = "b", version = "=3-r1*", revision = "1" },
   { dep = "~a/b-0", eapis = "..", category = "a", package = "b", version = "~0" },
