@@ -166,8 +166,8 @@ intersects = [
   { vals = ["cat/pkg[-u]", "cat/pkg[u]"], status = false },
   # repo deps
   { vals = ["cat/pkg::a", "cat/pkg::b"], status = false },
-  # non-versioned and versioned
-  { vals = ["cat/pkg", "cat/pkg-1"], status = true },
+  # unversioned and versioned
+  { vals = ["cat/pkg", ">cat/pkg-1"], status = true },
 ]
 
 sorting = [
