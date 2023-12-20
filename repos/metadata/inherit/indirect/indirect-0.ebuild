@@ -5,7 +5,7 @@ HOMEPAGE+=" https://github.com/pkgcraft"
 SRC_URI+=" https://github.com/pkgcraft/pkgcraft-9999.tar.xz"
 SLOT=0/1
 LICENSE="l1"
-KEYWORDS=""
+KEYWORDS="arm64"
 
 # incrementals
 IUSE="global ebuild"
