@@ -1,0 +1,5 @@
+DEFINED_PHASES=-
+DESCRIPTION=ebuild with no PROPERTIES
+EAPI=8
+SLOT=0
+_md5_=e4d49fa44d1e1cca7f1ffbf8b5c94ed1

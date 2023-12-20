@@ -1,0 +1,4 @@
+EAPI=8
+DESCRIPTION="ebuild with empty PROPERTIES"
+SLOT=0
+PROPERTIES=""
