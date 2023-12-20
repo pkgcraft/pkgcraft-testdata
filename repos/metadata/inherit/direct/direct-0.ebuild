@@ -1,8 +1,11 @@
 EAPI=8
 inherit a
 DESCRIPTION="ebuild with direct eclass inherit"
+HOMEPAGE="https://github.com/pkgcraft"
+SRC_URI="https://github.com/pkgcraft/pkgcraft-9999.tar.xz"
 SLOT=0
 LICENSE="l1"
+KEYWORDS="~amd64"
 
 # incrementals
 IUSE="global ebuild"

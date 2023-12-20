@@ -1,5 +1,9 @@
 # stub eclass
 
+# non-incrementals
+HOMEPAGE+=" https://github.com/pkgcraft/a"
+SRC_URI+=" https://github.com/pkgcraft/a.tar.xz"
+
 # incrementals
 IUSE="global eclass a"
 REQUIRED_USE="global eclass a"
