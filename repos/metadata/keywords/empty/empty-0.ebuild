@@ -1,0 +1,4 @@
+EAPI=8
+DESCRIPTION="ebuild with empty KEYWORDS"
+SLOT=0
+KEYWORDS=""

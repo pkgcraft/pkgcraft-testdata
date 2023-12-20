@@ -1,0 +1,5 @@
+DEFINED_PHASES=-
+DESCRIPTION=ebuild with empty KEYWORDS
+EAPI=8
+SLOT=0
+_md5_=dc0e3949dbc28cf78ea32f09d46e70ea
