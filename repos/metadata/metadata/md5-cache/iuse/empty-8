@@ -1,0 +1,5 @@
+DEFINED_PHASES=-
+DESCRIPTION=ebuild with empty IUSE
+EAPI=8
+SLOT=0
+_md5_=553ebfa61928cdf07658f2d35d5bbe4f
