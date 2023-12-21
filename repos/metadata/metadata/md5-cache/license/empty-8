@@ -1,0 +1,5 @@
+DEFINED_PHASES=-
+DESCRIPTION=ebuild with empty LICENSE
+EAPI=8
+SLOT=0
+_md5_=dfd7e0c3b0e8dee2671bde0d48cbafd8

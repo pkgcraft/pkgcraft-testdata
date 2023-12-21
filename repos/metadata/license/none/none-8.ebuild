@@ -1,0 +1,3 @@
+EAPI=8
+DESCRIPTION="ebuild with no LICENSE"
+SLOT=0
