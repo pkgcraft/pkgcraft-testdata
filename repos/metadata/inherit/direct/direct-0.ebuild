@@ -7,7 +7,6 @@ SLOT=0
 LICENSE="l1"
 
 # incrementals
-REQUIRED_USE="global ebuild"
 BDEPEND="cat/pkg ebuild/pkg"
 DEPEND="cat/pkg ebuild/pkg"
 IDEPEND="cat/pkg ebuild/pkg"
