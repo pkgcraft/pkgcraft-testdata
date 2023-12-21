@@ -1,5 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=ebuild with empty RESTRICT
-EAPI=8
-SLOT=0
-_md5_=8675cbff9aab6be8029ef087cf90f63c

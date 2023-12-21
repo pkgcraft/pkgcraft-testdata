@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=ebuild with no phase definitions
-EAPI=8
-LICENSE=l1
-SLOT=0
-_md5_=ad83c8febbb852d0ddd64e70fd801696

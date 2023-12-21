@@ -1,3 +1,0 @@
-EAPI=8
-DESCRIPTION="ebuild with no REQUIRED_USE"
-SLOT=0

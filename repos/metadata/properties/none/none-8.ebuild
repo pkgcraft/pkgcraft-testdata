@@ -1,3 +1,0 @@
-EAPI=8
-DESCRIPTION="ebuild with no PROPERTIES"
-SLOT=0

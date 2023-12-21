@@ -1,4 +1,0 @@
-EAPI=8
-DESCRIPTION="ebuild with empty RESTRICT"
-SLOT=0
-RESTRICT=""
