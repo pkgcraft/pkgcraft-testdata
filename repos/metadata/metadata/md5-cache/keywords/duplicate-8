@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=ebuild with duplicate KEYWORDS arches
+EAPI=8
+KEYWORDS=amd64 ~amd64 -amd64
+SLOT=0
+_md5_=4c146f23d1f822ee8d16999a4e44439d
