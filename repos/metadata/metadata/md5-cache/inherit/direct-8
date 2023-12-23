@@ -15,5 +15,5 @@ REQUIRED_USE=global eclass a
 RESTRICT=global eclass a
 SLOT=0
 SRC_URI=https://github.com/pkgcraft/pkgcraft-9999.tar.xz
-_eclasses_=a	2930bc6666180a54dcc2aefb44b1099d
+_eclasses_=a	9a145c01cbabd2f488b54d6f161f3b17
 _md5_=06156583b26e4d01ce87486ae715ccd7

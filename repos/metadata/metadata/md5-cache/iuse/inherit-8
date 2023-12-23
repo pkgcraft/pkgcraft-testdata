@@ -15,5 +15,5 @@ REQUIRED_USE=global eclass a b
 RESTRICT=global eclass a b
 SLOT=0
 SRC_URI=https://github.com/pkgcraft/a.tar.xz
-_eclasses_=b	9fa90ee9ccd285104f89b4b6bd87992c	a	2930bc6666180a54dcc2aefb44b1099d
+_eclasses_=b	9fa90ee9ccd285104f89b4b6bd87992c	a	9a145c01cbabd2f488b54d6f161f3b17
 _md5_=53ff42223864bc0fe3c08f246eaa6d3c
