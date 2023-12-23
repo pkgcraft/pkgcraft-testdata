@@ -21,4 +21,14 @@
 		<remote-id type="github">pkgcraft/pkgcraft</remote-id>
 		<remote-id type="pypi">pkgcraft</remote-id>
 	</upstream>
+	<longdescription lang="en">
+		A wrapped
+		sentence.
+		Another sentence.
+
+		New paragraph.
+	</longdescription>
+	<longdescription lang="zx">
+		zx
+	</longdescription>
 </pkgmetadata>
