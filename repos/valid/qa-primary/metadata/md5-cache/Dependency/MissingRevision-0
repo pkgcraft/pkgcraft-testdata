@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DEPEND==cat/stub-8
+DESCRIPTION=MissingRevision
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=f554e19b37803917d0f3780dc784e975
