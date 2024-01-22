@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DEPEND=cat/deprecated
+DESCRIPTION=DeprecatedDependency
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=b7657d2173f2de44ec888b6a1117a8c3
