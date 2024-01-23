@@ -1,1 +1,1 @@
-{"scope":{"Version":"Dependency/DeprecatedDependency-0"},"kind":{"Version":"DeprecatedDependency"},"level":"Warning","description":"DEPEND: cat/deprecated"}
+{"scope":{"Version":"Dependency/DeprecatedDependency-0"},"kind":{"Version":"DeprecatedDependency"},"description":"DEPEND: cat/deprecated"}
