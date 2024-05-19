@@ -1,5 +1,5 @@
 EAPI=8
-DESCRIPTION="Ebuild with dropped keywords"
+DESCRIPTION="Ebuild with all keywords"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 SLOT="0"
 LICENSE="MIT"
