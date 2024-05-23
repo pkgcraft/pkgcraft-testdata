@@ -1,8 +1,8 @@
 DEFINED_PHASES=-
 DESCRIPTION=Ebuild with unstable EAPI
-EAPI=7
+EAPI=pkgcraft
 HOMEPAGE=https://pkgcraft.pkgcraft
 KEYWORDS=amd64
 LICENSE=MIT
 SLOT=0
-_md5_=374eeb7d7557b248fd6771275108aaea
+_md5_=9daff61699a724931d275530182811fd
