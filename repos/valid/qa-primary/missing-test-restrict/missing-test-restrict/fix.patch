@@ -1,9 +1,0 @@
-diff --git a/missing-test-restrict-0.ebuild b/missing-test-restrict-0.ebuild
-index 706da93..706e069 100644
---- a/missing-test-restrict-0.ebuild
-+++ b/missing-test-restrict-0.ebuild
-@@ -5,3 +5,4 @@ LICENSE="MIT"
- SLOT="0"
- KEYWORDS="amd64"
- IUSE="test"
-+RESTRICT="!test? ( test )"

@@ -1,0 +1,11 @@
+diff --git a/MissingSlotDep-0.ebuild b/MissingSlotDep-0.ebuild
+index 88216ac..7b3ca29 100644
+--- a/MissingSlotDep-0.ebuild
++++ b/MissingSlotDep-0.ebuild
+@@ -4,5 +4,5 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
+ LICENSE="MIT"
+ SLOT="0"
+ KEYWORDS="amd64"
+-RDEPEND="stub/slotted"
++RDEPEND="stub/slotted:1"
+ DEPEND="${RDEPEND}"
