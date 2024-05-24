@@ -8,5 +8,9 @@
 set -e
 
 FILE=$(mktemp -p .)
-git diff --relative -- . ':(exclude)*.patch' > $FILE
-mv $FILE fix.patch
+# generate a patch file using relative paths
+git diff --relative -- . ':(exclude)*.patch' > "${FILE}"
+# remove git header lines
+sed -i 1,2d "${FILE}"
+# move file to expected location
+mv "${FILE}" fix.patch
