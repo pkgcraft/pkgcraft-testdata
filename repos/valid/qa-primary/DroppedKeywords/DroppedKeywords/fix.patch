@@ -1,5 +1,3 @@
-diff --git a/DroppedKeywords-2.ebuild b/DroppedKeywords-2.ebuild
-index 71477d5..fbf5f5a 100644
 --- a/DroppedKeywords-2.ebuild
 +++ b/DroppedKeywords-2.ebuild
 @@ -3,4 +3,4 @@ DESCRIPTION="Ebuild with dropped keyword ~x86"

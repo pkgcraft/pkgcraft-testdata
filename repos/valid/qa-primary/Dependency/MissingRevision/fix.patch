@@ -1,5 +1,3 @@
-diff --git a/MissingRevision-0.ebuild b/MissingRevision-0.ebuild
-index a4fafcd..0903660 100644
 --- a/MissingRevision-0.ebuild
 +++ b/MissingRevision-0.ebuild
 @@ -4,4 +4,4 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
