@@ -1,0 +1,10 @@
+diff --git a/eapi-deprecated-0.ebuild b/eapi-deprecated-0.ebuild
+index 925e753..9b81c9b 100644
+--- a/eapi-deprecated-0.ebuild
++++ b/eapi-deprecated-0.ebuild
+@@ -1,4 +1,4 @@
+-EAPI=6
++EAPI=8
+ DESCRIPTION="Ebuild with deprecated EAPI"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ SLOT="0"
