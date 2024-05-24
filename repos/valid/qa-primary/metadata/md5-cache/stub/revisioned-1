@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Stub package with different revisions
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=1d1f67dc2c1f1e7645a624b1d4e598b3

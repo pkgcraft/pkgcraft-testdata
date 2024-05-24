@@ -3,7 +3,7 @@ DEPEND==stub/revisioned-1
 DESCRIPTION=Ebuild with dependency missing a revision
 EAPI=8
 HOMEPAGE=https://pkgcraft.pkgcraft
-KEYWORDS=amd64
+KEYWORDS=~amd64
 LICENSE=MIT
 SLOT=0
-_md5_=6ce3252375278b7f3653fac971660106
+_md5_=177eb4e495fff72ed08fb8e5e90fc86a
