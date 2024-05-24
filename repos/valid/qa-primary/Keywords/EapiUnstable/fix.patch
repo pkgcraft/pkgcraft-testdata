@@ -1,0 +1,10 @@
+diff --git a/EapiUnstable-0.ebuild b/EapiUnstable-0.ebuild
+index 70510f9..7fe3e69 100644
+--- a/EapiUnstable-0.ebuild
++++ b/EapiUnstable-0.ebuild
+@@ -1,4 +1,4 @@
+-EAPI=pkgcraft
++EAPI=8
+ DESCRIPTION="Ebuild with unstable EAPI"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ SLOT="0"
