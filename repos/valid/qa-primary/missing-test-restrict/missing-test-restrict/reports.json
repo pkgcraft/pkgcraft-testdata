@@ -1,0 +1,1 @@
+{"kind":"MissingTestRestrict","scope":{"Version":"missing-test-restrict/missing-test-restrict-0"},"message":"missing RESTRICT=\"!test? ( test )\" with IUSE=test'"}
