@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=UnstableOnly
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64 ~arm64
+LICENSE=MIT
+SLOT=0
+_md5_=08e2cdd9da4b5317e71e464bb8d5db03
