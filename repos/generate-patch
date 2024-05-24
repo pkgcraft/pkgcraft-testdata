@@ -8,5 +8,5 @@
 set -e
 
 FILE=$(mktemp -p .)
-git diff --relative -- ':(exclude)*.patch' > $FILE
+git diff --relative -- . ':(exclude)*.patch' > $FILE
 mv $FILE fix.patch
