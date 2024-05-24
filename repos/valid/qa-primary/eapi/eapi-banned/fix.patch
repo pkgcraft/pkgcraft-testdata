@@ -1,0 +1,10 @@
+diff --git a/eapi-banned-0.ebuild b/eapi-banned-0.ebuild
+index abd8c8a..1d2337f 100644
+--- a/eapi-banned-0.ebuild
++++ b/eapi-banned-0.ebuild
+@@ -1,4 +1,4 @@
+-EAPI=5
++EAPI=8
+ DESCRIPTION="Ebuild with banned EAPI"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ SLOT="0"
