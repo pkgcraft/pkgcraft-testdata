@@ -1,0 +1,10 @@
+diff --git a/UnsortedKeywords-0.ebuild b/UnsortedKeywords-0.ebuild
+index fbd1e69..20f5db5 100644
+--- a/UnsortedKeywords-0.ebuild
++++ b/UnsortedKeywords-0.ebuild
+@@ -3,4 +3,4 @@ DESCRIPTION="Ebuild with unsorted keywords"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ SLOT="0"
+ LICENSE="MIT"
+-KEYWORDS="x86 amd64"
++KEYWORDS="amd64 x86"
