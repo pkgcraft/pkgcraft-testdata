@@ -1,9 +1,9 @@
 DEFINED_PHASES=-
-DEPEND=cat/deprecated
+DEPEND=stub/deprecated
 DESCRIPTION=Ebuild with deprecated dependency
 EAPI=8
 HOMEPAGE=https://pkgcraft.pkgcraft
 KEYWORDS=amd64
 LICENSE=MIT
 SLOT=0
-_md5_=ac91d0ca14c39c5b31ee057aef9aec85
+_md5_=05a4e35f2163c43f7954a552fbf9ba42
