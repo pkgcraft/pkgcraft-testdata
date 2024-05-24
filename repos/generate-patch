@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Generate compatible patch files for pkgcruft tests.
+#
+# Usage: Modify files under a given directory and then run this script in the
+# directory, add the generated patch file to the git repo, and finally discard
+# the file changes.
+
+set -e
+
+FILE=$(mktemp -p .)
+git diff --relative > $FILE
+mv $FILE fix.patch
