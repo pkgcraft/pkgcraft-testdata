@@ -1,5 +1,5 @@
 EAPI=8
-DESCRIPTION="MissingRevision"
+DESCRIPTION="Ebuild with dependency missing a revision"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 SLOT="0"
 LICENSE="MIT"

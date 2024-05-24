@@ -1,9 +1,9 @@
 DEFINED_PHASES=-
 DEPEND==cat/stub-8
-DESCRIPTION=MissingRevision
+DESCRIPTION=Ebuild with dependency missing a revision
 EAPI=8
 HOMEPAGE=https://pkgcraft.pkgcraft
 KEYWORDS=amd64
 LICENSE=MIT
 SLOT=0
-_md5_=f554e19b37803917d0f3780dc784e975
+_md5_=010d619ab3aed4fcfdd79cfefe57f014
