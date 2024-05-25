@@ -1,5 +1,5 @@
---- a/UnsortedKeywords-0.ebuild
-+++ b/UnsortedKeywords-0.ebuild
+--- a/KeywordsUnsorted-0.ebuild
++++ b/KeywordsUnsorted-0.ebuild
 @@ -3,4 +3,4 @@ DESCRIPTION="Ebuild with unsorted keywords"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  SLOT="0"

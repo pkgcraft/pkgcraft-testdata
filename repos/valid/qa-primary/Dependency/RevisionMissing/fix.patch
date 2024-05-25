@@ -1,15 +1,13 @@
---- a/MissingRevision-0.ebuild
-+++ b/MissingRevision-0.ebuild
+--- a/RevisionMissing-0.ebuild
++++ b/RevisionMissing-0.ebuild
 @@ -4,4 +4,4 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
  SLOT="0"
  LICENSE="MIT"
  KEYWORDS="amd64"
 -DEPEND="=stub/revisioned-1"
 +DEPEND="~stub/revisioned-1"
-diff --git a/MissingRevision-1.ebuild b/MissingRevision-1.ebuild
-index 69f8a09..3d551dd 100644
---- a/MissingRevision-1.ebuild
-+++ b/MissingRevision-1.ebuild
+--- a/RevisionMissing-1.ebuild
++++ b/RevisionMissing-1.ebuild
 @@ -4,4 +4,4 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
  SLOT="0"
  LICENSE="MIT"

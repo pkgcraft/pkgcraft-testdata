@@ -1,5 +1,5 @@
---- a/MissingTestRestrict-0.ebuild
-+++ b/MissingTestRestrict-0.ebuild
+--- a/RestrictMissing-0.ebuild
++++ b/RestrictMissing-0.ebuild
 @@ -5,3 +5,4 @@ LICENSE="MIT"
  SLOT="0"
  KEYWORDS="amd64"

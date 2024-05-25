@@ -1,5 +1,5 @@
---- a/MissingSlotDep-0.ebuild
-+++ b/MissingSlotDep-0.ebuild
+--- a/DependencySlotMissing-0.ebuild
++++ b/DependencySlotMissing-0.ebuild
 @@ -4,5 +4,5 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
  LICENSE="MIT"
  SLOT="0"

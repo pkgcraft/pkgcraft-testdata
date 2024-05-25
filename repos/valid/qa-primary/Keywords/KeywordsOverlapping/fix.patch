@@ -1,5 +1,5 @@
---- a/OverlappingKeywords-0.ebuild
-+++ b/OverlappingKeywords-0.ebuild
+--- a/KeywordsOverlapping-0.ebuild
++++ b/KeywordsOverlapping-0.ebuild
 @@ -3,4 +3,4 @@ DESCRIPTION="Ebuild with overlapping keywords"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  SLOT="0"

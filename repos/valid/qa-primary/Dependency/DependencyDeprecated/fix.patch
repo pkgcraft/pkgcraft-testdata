@@ -1,5 +1,5 @@
---- a/DeprecatedDependency-0.ebuild
-+++ b/DeprecatedDependency-0.ebuild
+--- a/DependencyDeprecated-0.ebuild
++++ b/DependencyDeprecated-0.ebuild
 @@ -4,4 +4,3 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
  SLOT="0"
  LICENSE="MIT"
