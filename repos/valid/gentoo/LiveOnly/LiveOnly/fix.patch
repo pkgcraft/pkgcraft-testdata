@@ -1,0 +1,9 @@
+--- a/LiveOnly-1.ebuild
++++ b/LiveOnly-1.ebuild
+@@ -0,0 +1,6 @@
++EAPI=8
++DESCRIPTION="Package with non-live release"
++HOMEPAGE="https://pkgcraft.pkgcraft"
++SLOT="0"
++LICENSE="MIT"
++KEYWORDS="amd64"
