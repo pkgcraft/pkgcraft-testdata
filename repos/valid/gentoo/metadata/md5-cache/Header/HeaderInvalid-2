@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Package with invalid copyright holder
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=a765895e4ef43ac437d0ac1ae9f20ce1

@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Package with missing license header
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=13e4c79df18df368255c0a1bc1d5e624
