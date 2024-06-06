@@ -1,0 +1,6 @@
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",2]},"message":"character 0021: '\\u{2000}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",2]},"message":"character 0026: '\\u{2001}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",2]},"message":"character 0034: '\\u{2002}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",2]},"message":"character 0042: '\\u{2003}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",3]},"message":"character 0037: '\\u{2004}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",6]},"message":"missing ending newline"}

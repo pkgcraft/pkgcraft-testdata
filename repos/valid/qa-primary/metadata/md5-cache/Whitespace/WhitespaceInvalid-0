@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Package with various invalid whitespace usage
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=0b4c51d538d3ce19a5de1f480c960cce
