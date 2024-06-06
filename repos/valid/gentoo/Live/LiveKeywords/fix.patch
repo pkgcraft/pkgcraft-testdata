@@ -1,0 +1,8 @@
+--- a/LiveKeywords-9999.ebuild
++++ b/LiveKeywords-9999.ebuild
+@@ -6,5 +6,4 @@
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ SLOT="0"
+ LICENSE="MIT"
+-KEYWORDS="amd64"
+ PROPERTIES="live"
