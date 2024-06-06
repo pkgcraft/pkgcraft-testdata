@@ -1,1 +1,1 @@
-{"kind":"EapiDeprecated","scope":{"Version":"EapiStatus/EapiDeprecated-0"},"message":"6"}
+{"kind":"EapiDeprecated","scope":{"Version":["EapiStatus/EapiDeprecated-0",null]},"message":"6"}
