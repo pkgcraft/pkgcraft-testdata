@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild missing empty line before EAPI
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=f708d385a5556ff3dfe3a8c815f57d2f

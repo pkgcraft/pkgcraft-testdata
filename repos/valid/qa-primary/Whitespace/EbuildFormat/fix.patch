@@ -6,3 +6,11 @@
  DESCRIPTION="Ebuild missing empty line after EAPI"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  SLOT="0"
+--- a/EbuildFormat-1.ebuild
++++ b/EbuildFormat-1.ebuild
+@@ -1,4 +1,5 @@
+ # comment
++
+ EAPI=8
+ 
+ DESCRIPTION="Ebuild missing empty line before EAPI"
