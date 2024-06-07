@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with missing license
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+SLOT=0
+_md5_=6761e273a1b38f6c0c17ea7cc3bc420f
