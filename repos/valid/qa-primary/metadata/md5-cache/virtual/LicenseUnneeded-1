@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual ebuild without a license
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=8cd2fbc7b9cf19b6d4cbf3bf850775e6

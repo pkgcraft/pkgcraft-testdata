@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual ebuild without a license
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+SLOT=0
+_md5_=3cadb4ba9d48b4a5b873ba2b26cce539
