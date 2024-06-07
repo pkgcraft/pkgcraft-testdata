@@ -3,6 +3,6 @@
 @@ -1,4 +1,4 @@
 -EAPI=pkgcraft
 +EAPI=8
+ 
  DESCRIPTION="Ebuild with unstable EAPI"
  HOMEPAGE="https://pkgcraft.pkgcraft"
- SLOT="0"

@@ -1,4 +1,5 @@
 EAPI=8
+
 DESCRIPTION="Ebuild with slotted dep"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"

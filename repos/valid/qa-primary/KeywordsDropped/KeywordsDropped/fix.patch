@@ -1,6 +1,6 @@
 --- a/KeywordsDropped-2.ebuild
 +++ b/KeywordsDropped-2.ebuild
-@@ -3,4 +3,4 @@ DESCRIPTION="Ebuild with dropped keyword ~x86"
+@@ -4,4 +4,4 @@ DESCRIPTION="Ebuild with dropped keyword ~x86"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  SLOT="0"
  LICENSE="MIT"

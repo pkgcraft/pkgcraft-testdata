@@ -3,6 +3,6 @@
 @@ -1,4 +1,4 @@
 -EAPI=6
 +EAPI=8
+ 
  DESCRIPTION="Ebuild with deprecated EAPI"
  HOMEPAGE="https://pkgcraft.pkgcraft"
- SLOT="0"

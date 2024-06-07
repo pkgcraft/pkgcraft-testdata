@@ -3,6 +3,6 @@
 @@ -1,4 +1,4 @@
 -EAPI=5
 +EAPI=8
+ 
  DESCRIPTION="Ebuild with banned EAPI"
  HOMEPAGE="https://pkgcraft.pkgcraft"
- SLOT="0"

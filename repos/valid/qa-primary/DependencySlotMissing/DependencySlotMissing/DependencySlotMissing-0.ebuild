@@ -1,4 +1,5 @@
 EAPI=8
+
 DESCRIPTION="Ebuild with dependency missing a slot dep"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"

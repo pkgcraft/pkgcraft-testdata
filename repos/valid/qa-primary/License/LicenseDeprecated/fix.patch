@@ -1,7 +1,7 @@
 --- a/LicenseDeprecated-0.ebuild
 +++ b/LicenseDeprecated-0.ebuild
-@@ -1,6 +1,6 @@
- EAPI=8
+@@ -2,6 +2,6 @@
+ 
  DESCRIPTION="Ebuild with deprecated license"
  HOMEPAGE="https://pkgcraft.pkgcraft"
 -LICENSE="deprecated"

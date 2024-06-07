@@ -1,5 +1,6 @@
 EAPI=8
-DESCRIPTION="Virtual ebuild without a license"
+
+DESCRIPTION="Virtual ebuild with a license"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
 SLOT="0"

@@ -1,4 +1,5 @@
 EAPI=8
+
 DESCRIPTION="Ebuild with unsorted keywords"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 SLOT="0"

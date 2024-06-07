@@ -1,6 +1,5 @@
-EAPI=6
-
-DESCRIPTION="Ebuild with deprecated EAPI in parent repo"
+EAPI=8
+DESCRIPTION="Ebuild missing empty line after EAPI"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 SLOT="0"
 LICENSE="MIT"

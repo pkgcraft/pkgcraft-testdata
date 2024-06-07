@@ -1,9 +1,8 @@
-diff -Naur LicenseUnneeded.orig/LicenseUnneeded-1.ebuild LicenseUnneeded/LicenseUnneeded-1.ebuild
---- LicenseUnneeded.orig/LicenseUnneeded-1.ebuild	2024-06-07 01:17:51.112658803 -0600
-+++ LicenseUnneeded/LicenseUnneeded-1.ebuild	2024-06-07 01:22:32.948604058 -0600
-@@ -1,6 +1,5 @@
- EAPI=8
- DESCRIPTION="Virtual ebuild without a license"
+--- a/LicenseUnneeded-1.ebuild
++++ b/LicenseUnneeded-1.ebuild
+@@ -2,6 +2,5 @@
+ 
+ DESCRIPTION="Virtual ebuild with a license"
  HOMEPAGE="https://pkgcraft.pkgcraft"
 -LICENSE="MIT"
  SLOT="0"

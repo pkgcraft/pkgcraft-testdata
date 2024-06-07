@@ -2,6 +2,7 @@
 # MIT
 
 EAPI=8
+
 DESCRIPTION="Package with invalid license header"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 SLOT="0"

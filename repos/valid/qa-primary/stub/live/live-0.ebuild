@@ -1,4 +1,5 @@
 EAPI=8
+
 DESCRIPTION="Stub ebuild that is live"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"

@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+
 DESCRIPTION="Live ebuild with keywords"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 SLOT="0"

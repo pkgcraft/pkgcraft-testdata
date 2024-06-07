@@ -1,6 +1,6 @@
 --- a/RevisionMissing-0.ebuild
 +++ b/RevisionMissing-0.ebuild
-@@ -4,4 +4,4 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
+@@ -5,4 +5,4 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
  SLOT="0"
  LICENSE="MIT"
  KEYWORDS="amd64"
@@ -8,7 +8,7 @@
 +DEPEND="~stub/revisioned-1"
 --- a/RevisionMissing-1.ebuild
 +++ b/RevisionMissing-1.ebuild
-@@ -4,4 +4,4 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
+@@ -5,4 +5,4 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
  SLOT="0"
  LICENSE="MIT"
  KEYWORDS="~amd64"

@@ -1,6 +1,6 @@
 --- a/KeywordsOverlapping-0.ebuild
 +++ b/KeywordsOverlapping-0.ebuild
-@@ -3,4 +3,4 @@ DESCRIPTION="Ebuild with overlapping keywords"
+@@ -4,4 +4,4 @@ DESCRIPTION="Ebuild with overlapping keywords"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  SLOT="0"
  LICENSE="MIT"
