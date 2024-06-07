@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with whitespace before EAPI
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=89473e290b2546d5891d3267116e0936

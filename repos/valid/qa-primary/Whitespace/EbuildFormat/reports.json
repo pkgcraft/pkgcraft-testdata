@@ -1,2 +1,3 @@
-{"kind":"EbuildFormat","scope":{"Version":["Whitespace/EbuildFormat-0",1]},"message":"missing empty lines around EAPI assignment"}
-{"kind":"EbuildFormat","scope":{"Version":["Whitespace/EbuildFormat-1",2]},"message":"missing empty lines around EAPI assignment"}
+{"kind":"EbuildFormat","scope":{"Version":["Whitespace/EbuildFormat-0",1]},"message":"non-standard EAPI assignment"}
+{"kind":"EbuildFormat","scope":{"Version":["Whitespace/EbuildFormat-1",2]},"message":"non-standard EAPI assignment"}
+{"kind":"EbuildFormat","scope":{"Version":["Whitespace/EbuildFormat-2",3]},"message":"non-standard EAPI assignment"}

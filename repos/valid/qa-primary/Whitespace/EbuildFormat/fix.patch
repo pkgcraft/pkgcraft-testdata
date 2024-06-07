@@ -14,3 +14,13 @@
  EAPI=8
  
  DESCRIPTION="Ebuild missing empty line before EAPI"
+--- a/EbuildFormat-2.ebuild
++++ b/EbuildFormat-2.ebuild
+@@ -1,6 +1,6 @@
+ # comment
+ 
+- EAPI=8
++EAPI=8
+ 
+ DESCRIPTION="Ebuild with whitespace before EAPI"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
