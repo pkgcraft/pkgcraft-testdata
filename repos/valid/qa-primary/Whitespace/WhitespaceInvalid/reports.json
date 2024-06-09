@@ -1,6 +1,6 @@
-{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",3]},"message":"character 021: '\\u{2000}'"}
-{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",3]},"message":"character 026: '\\u{2001}'"}
-{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",3]},"message":"character 034: '\\u{2002}'"}
-{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",3]},"message":"character 042: '\\u{2003}'"}
-{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",4]},"message":"character 037: '\\u{2004}'"}
-{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",7]},"message":"missing ending newline"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":3,"column":0}]},"message":"character 021: '\\u{2000}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":3,"column":0}]},"message":"character 026: '\\u{2001}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":3,"column":0}]},"message":"character 034: '\\u{2002}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":3,"column":0}]},"message":"character 042: '\\u{2003}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":4,"column":0}]},"message":"character 037: '\\u{2004}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":7,"column":0}]},"message":"missing ending newline"}
