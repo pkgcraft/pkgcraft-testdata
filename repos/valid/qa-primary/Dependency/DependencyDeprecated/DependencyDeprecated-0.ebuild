@@ -2,7 +2,7 @@ EAPI=8
 
 DESCRIPTION="Ebuild with deprecated dependency"
 HOMEPAGE="https://pkgcraft.pkgcraft"
-SLOT="0"
 LICENSE="MIT"
+SLOT="0"
 KEYWORDS="amd64"
 DEPEND="stub/deprecated"

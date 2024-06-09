@@ -5,6 +5,6 @@ EAPI=8
 
 DESCRIPTION="Package with invalid copyright header before GLEP 76 was approved"
 HOMEPAGE="https://pkgcraft.pkgcraft"
-SLOT="0"
 LICENSE="MIT"
+SLOT="0"
 KEYWORDS="amd64"

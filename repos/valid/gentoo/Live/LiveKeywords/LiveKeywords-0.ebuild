@@ -5,6 +5,6 @@ EAPI=8
 
 DESCRIPTION="Release ebuild with keywords"
 HOMEPAGE="https://pkgcraft.pkgcraft"
-SLOT="0"
 LICENSE="MIT"
+SLOT="0"
 KEYWORDS="amd64"

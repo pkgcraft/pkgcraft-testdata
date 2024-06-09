@@ -7,8 +7,8 @@
 -HOMEPAGE="https://pkgcraft.pkgcraft" 
 +DESCRIPTION="Package with various invalid whitespace usage"
 +HOMEPAGE="https://pkgcraft.pkgcraft"
- SLOT="0"
  LICENSE="MIT"
+ SLOT="0"
 -KEYWORDS="amd64"
 \ No newline at end of file
 +KEYWORDS="amd64"

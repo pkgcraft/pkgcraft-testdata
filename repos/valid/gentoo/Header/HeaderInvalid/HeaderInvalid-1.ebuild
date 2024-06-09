@@ -5,6 +5,6 @@ EAPI=8
 
 DESCRIPTION="Package with valid copyright header"
 HOMEPAGE="https://pkgcraft.pkgcraft"
-SLOT="0"
 LICENSE="MIT"
+SLOT="0"
 KEYWORDS="amd64"

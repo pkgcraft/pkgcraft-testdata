@@ -4,6 +4,6 @@ inherit unused
 
 DESCRIPTION="Ebuild with unused eclass in parent repo"
 HOMEPAGE="https://pkgcraft.pkgcraft"
-SLOT="0"
 LICENSE="MIT"
+SLOT="0"
 KEYWORDS="amd64"

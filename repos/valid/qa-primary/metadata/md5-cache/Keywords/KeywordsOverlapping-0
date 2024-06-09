@@ -5,4 +5,4 @@ HOMEPAGE=https://pkgcraft.pkgcraft
 KEYWORDS=-* amd64 ~amd64 -amd64 ~x86 x86
 LICENSE=MIT
 SLOT=0
-_md5_=8a47be0ab821525a123b2757e24718cc
+_md5_=45dedc877ef1b1ee32aafc62283895bb
