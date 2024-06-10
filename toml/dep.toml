@@ -157,6 +157,15 @@ intersects = [
   { vals = ["cat/pkg-a", "cat/pkg-b"], status = false },
   # slots
   { vals = ["cat/pkg:0", "cat/pkg:1"], status = false },
+  { vals = ["cat/pkg:0", "cat/pkg:1="], status = false },
+  { vals = ["cat/pkg:0", "cat/pkg:="], status = true },
+  { vals = ["cat/pkg:0", "cat/pkg:0="], status = true },
+  { vals = ["cat/pkg:0", "cat/pkg:*"], status = true },
+  { vals = ["cat/pkg:0", "cat/pkg"], status = true },
+  { vals = ["cat/pkg:0=", "cat/pkg"], status = true },
+  { vals = ["cat/pkg:*", "cat/pkg:="], status = true },
+  { vals = ["cat/pkg:*", "cat/pkg"], status = true },
+  { vals = ["cat/pkg:=", "cat/pkg"], status = true },
   # subslots
   { vals = ["cat/pkg:0/0", "cat/pkg:0/1"], status = false },
   # use deps
