@@ -167,12 +167,21 @@ intersects = [
   { vals = ["cat/pkg:*", "cat/pkg"], status = true },
   { vals = ["cat/pkg:=", "cat/pkg"], status = true },
   # subslots
-  { vals = ["cat/pkg:0/0", "cat/pkg:0/1"], status = false },
+  { vals = ["cat/pkg:0/1", "cat/pkg:0/2"], status = false },
+  { vals = ["cat/pkg:0/1", "cat/pkg:0"], status = true },
+  { vals = ["cat/pkg:0/1", "cat/pkg:*"], status = true },
+  { vals = ["cat/pkg:0/1", "cat/pkg:="], status = true },
+  { vals = ["cat/pkg:0/1", "cat/pkg"], status = true },
   # use deps
-  { vals = ["cat/pkg", "cat/pkg[u]"], status = true },
-  { vals = ["cat/pkg[u1]", "cat/pkg[u1,u2]"], status = true },
-  { vals = ["cat/pkg[u1]", "cat/pkg[u2]"], status = true },
-  { vals = ["cat/pkg[-u]", "cat/pkg[u]"], status = false },
+  { vals = ["cat/pkg", "cat/pkg[a]"], status = true },
+  { vals = ["cat/pkg[a]", "cat/pkg[a,b]"], status = true },
+  { vals = ["cat/pkg[a]", "cat/pkg[b]"], status = true },
+  { vals = ["cat/pkg[a]", "cat/pkg[a=]"], status = true },
+  { vals = ["cat/pkg[a]", "cat/pkg[!a=]"], status = true },
+  { vals = ["cat/pkg[a]", "cat/pkg[a?]"], status = true },
+  { vals = ["cat/pkg[a]", "cat/pkg[!a?]"], status = true },
+  { vals = ["cat/pkg[-a]", "cat/pkg[a]"], status = false },
+  { vals = ["cat/pkg[-a]", "cat/pkg[b]"], status = true },
   # repo deps
   { vals = ["cat/pkg::a", "cat/pkg::b"], status = false },
   # unversioned and versioned
