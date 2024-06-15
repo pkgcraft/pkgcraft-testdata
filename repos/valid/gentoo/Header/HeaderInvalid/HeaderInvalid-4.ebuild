@@ -6,5 +6,5 @@ EAPI=8
 DESCRIPTION="Package with invalid license header"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
-SLOT="0"
+SLOT="1"
 KEYWORDS="amd64"

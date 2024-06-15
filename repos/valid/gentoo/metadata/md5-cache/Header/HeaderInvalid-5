@@ -4,5 +4,5 @@ EAPI=8
 HOMEPAGE=https://pkgcraft.pkgcraft
 KEYWORDS=amd64
 LICENSE=MIT
-SLOT=0
-_md5_=9e6680eb6784dfc6596936d3ef36a06e
+SLOT=1
+_md5_=2ad4671c5041279f45e53e79ffdb784b
