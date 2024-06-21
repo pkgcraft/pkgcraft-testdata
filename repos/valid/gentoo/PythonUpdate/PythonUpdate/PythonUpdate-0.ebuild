@@ -15,5 +15,5 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="
 	${PYTHON_DEPS}
-	stub/python-dep[${PYTHON_USEDEP}]
+	stub/python-dep:0[${PYTHON_USEDEP}]
 "

@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{8,9} )
 inherit python-single-r1
 
-DESCRIPTION="Ebuild with potential python updates"
+DESCRIPTION="Ebuild with no available python updates"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
 SLOT="0"
 IUSE="python"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
-RDEPEND="python? ( ${PYTHON_DEPS} stub/python-dep:0[${PYTHON_USEDEP}] )"
+RDEPEND="python? ( ${PYTHON_DEPS} stub/python-dep:1[${PYTHON_USEDEP}] )"

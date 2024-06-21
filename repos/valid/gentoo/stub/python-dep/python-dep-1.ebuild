@@ -4,12 +4,12 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_8 )
-inherit python-any-r1
+inherit python-r1
 
-DESCRIPTION="Ebuild with potential python updates"
+DESCRIPTION="stub ebuild with incomplete python support"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
-SLOT="0"
+SLOT="1"
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-BDEPEND="stub/python-dep:0[${PYTHON_USEDEP}]"
-DEPEND="${PYTHON_DEPS}"
+RDEPEND="${PYTHON_DEPS}"
