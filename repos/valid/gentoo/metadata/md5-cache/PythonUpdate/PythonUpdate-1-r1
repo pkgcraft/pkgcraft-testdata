@@ -1,5 +1,5 @@
 DEFINED_PHASES=-
-DESCRIPTION=Ebuild with no available python updates
+DESCRIPTION=Ebuild with no available python updates due to deps
 EAPI=8
 HOMEPAGE=https://pkgcraft.pkgcraft
 INHERIT=python-single-r1
@@ -9,4 +9,4 @@ RDEPEND=python? ( python_single_target_python3_8? ( dev-lang/python:3.8 ) python
 REQUIRED_USE=python? ( ^^ ( python_single_target_python3_8 python_single_target_python3_9 ) )
 SLOT=0
 _eclasses_=python-single-r1	6eed3ce65343ebd8faf496ccebe21cbe
-_md5_=f6e1ee136069fc903cbfcc45495c110c
+_md5_=9b2841737dfff2ad47ef11af28cdebae

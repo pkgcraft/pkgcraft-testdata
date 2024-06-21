@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_8 )
 inherit python-any-r1
 
-DESCRIPTION="Ebuild with no available python updates"
+DESCRIPTION="Ebuild with no available python updates due to deps"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
 SLOT="0"
