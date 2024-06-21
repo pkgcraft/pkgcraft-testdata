@@ -1,0 +1,12 @@
+DEFINED_PHASES=-
+DESCRIPTION=Stub ebuild with complete python support
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+INHERIT=python-r1
+IUSE=python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+LICENSE=MIT
+RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
+REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
+SLOT=0
+_eclasses_=python-r1	71fd19faeb439e121356c156c6d6f3e2
+_md5_=33ff1e925458290eddb26e9ea30b4f5e
