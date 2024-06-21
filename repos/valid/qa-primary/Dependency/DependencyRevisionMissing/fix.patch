@@ -1,13 +1,13 @@
---- a/RevisionMissing-0.ebuild
-+++ b/RevisionMissing-0.ebuild
+--- a/DependencyRevisionMissing-0.ebuild
++++ b/DependencyRevisionMissing-0.ebuild
 @@ -5,4 +5,4 @@
  LICENSE="MIT"
  SLOT="0"
  KEYWORDS="amd64"
 -DEPEND="=stub/revisioned-1"
 +DEPEND="~stub/revisioned-1"
---- a/RevisionMissing-1.ebuild
-+++ b/RevisionMissing-1.ebuild
+--- a/DependencyRevisionMissing-1.ebuild
++++ b/DependencyRevisionMissing-1.ebuild
 @@ -7,7 +7,7 @@
  KEYWORDS="~amd64"
  IUSE="u1 u2"
