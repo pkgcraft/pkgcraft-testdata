@@ -3,7 +3,8 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_10 )
+# unordered impls
+PYTHON_COMPAT=( python3_{9,8,10})
 inherit python-r1
 
 DESCRIPTION="Ebuild with potential python updates"

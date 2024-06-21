@@ -1,11 +1,11 @@
 DEFINED_PHASES=-
-DEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
+DEPEND=python_targets_python3_8? ( dev-lang/python:3.8 )
 DESCRIPTION=Ebuild with potential python updates
 EAPI=8
 HOMEPAGE=https://pkgcraft.pkgcraft
 INHERIT=python-any-r1
-IUSE=python_targets_python3_10 python_targets_python3_11
+IUSE=python_targets_python3_8
 LICENSE=MIT
 SLOT=0
 _eclasses_=python-any-r1	71fd19faeb439e121356c156c6d6f3e2
-_md5_=80cc8294b21c876b205094255d19361a
+_md5_=650199bca14067bd955c099213bdca10
