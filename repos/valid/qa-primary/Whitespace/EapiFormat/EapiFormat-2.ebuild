@@ -1,6 +1,6 @@
 # comment
 
- EAPI=8
+	EAPI=8
 
 DESCRIPTION="Ebuild with whitespace before EAPI"
 HOMEPAGE="https://pkgcraft.pkgcraft"

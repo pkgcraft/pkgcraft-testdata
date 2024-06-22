@@ -19,7 +19,7 @@
 @@ -1,6 +1,6 @@
  # comment
  
-- EAPI=8
+-	EAPI=8
 +EAPI=8
  
  DESCRIPTION="Ebuild with whitespace before EAPI"
