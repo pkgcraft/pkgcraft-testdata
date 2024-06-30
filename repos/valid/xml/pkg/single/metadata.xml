@@ -18,5 +18,9 @@
 
 		New paragraph.
 	</longdescription>
+	<slots>
+		<slot name="*">slot description</slot>
+		<subslots>subslot description</subslots>
+	</slots>
 	<stabilize-allarches/>
 </pkgmetadata>
