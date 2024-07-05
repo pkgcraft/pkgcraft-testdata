@@ -10,6 +10,12 @@
 	</use>
 	<upstream>
 		<remote-id type="github">pkgcraft/pkgcraft</remote-id>
+		<bugs-to>https://github.com/pkgcraft/pkgcraft/issues</bugs-to>
+		<changelog> </changelog>
+		<doc> https://github.com/pkgcraft/pkgcraft  </doc>
+		<maintainer status="active">
+			<name>upstream</name>
+		</maintainer>
 	</upstream>
 	<longdescription>
 		A wrapped
