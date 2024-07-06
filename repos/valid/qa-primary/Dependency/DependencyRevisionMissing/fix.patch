@@ -1,21 +1,24 @@
---- a/DependencyRevisionMissing-0.ebuild
-+++ b/DependencyRevisionMissing-0.ebuild
+diff -Naur DependencyRevisionMissing.orig/DependencyRevisionMissing-0.ebuild DependencyRevisionMissing/DependencyRevisionMissing-0.ebuild
+--- DependencyRevisionMissing.orig/DependencyRevisionMissing-0.ebuild	2024-06-08 18:31:54.133002338 -0600
++++ DependencyRevisionMissing/DependencyRevisionMissing-0.ebuild	2024-07-06 12:48:15.770734946 -0600
 @@ -5,4 +5,4 @@
  LICENSE="MIT"
  SLOT="0"
  KEYWORDS="amd64"
 -DEPEND="=stub/revisioned-1"
 +DEPEND="~stub/revisioned-1"
---- a/DependencyRevisionMissing-1.ebuild
-+++ b/DependencyRevisionMissing-1.ebuild
-@@ -7,7 +7,7 @@
+diff -Naur DependencyRevisionMissing.orig/DependencyRevisionMissing-1.ebuild DependencyRevisionMissing/DependencyRevisionMissing-1.ebuild
+--- DependencyRevisionMissing.orig/DependencyRevisionMissing-1.ebuild	2024-07-06 12:40:06.549020423 -0600
++++ DependencyRevisionMissing/DependencyRevisionMissing-1.ebuild	2024-07-06 12:48:40.786006552 -0600
+@@ -7,8 +7,8 @@
  KEYWORDS="~amd64"
- IUSE="u1 u2"
+ IUSE="u1 u2 u3"
  DEPEND="
 -	u1? ( =stub/revisioned-1 )
--	u2? ( =stub/revisioned-1 )
 +	u1? ( =stub/revisioned-1-r1 )
-+	u2? ( =stub/revisioned-1-r1 )
+ 	u2? ( =stub/revisioned-1-r1 )
+-	u3? ( =stub/revisioned-1 )
++	u3? ( =stub/revisioned-1-r1 )
  "
 -RDEPEND="=stub/revisioned-1"
 +RDEPEND="~stub/revisioned-1"

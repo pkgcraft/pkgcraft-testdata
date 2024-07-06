@@ -1,19 +1,22 @@
---- a/DependencyDeprecated-0.ebuild
-+++ b/DependencyDeprecated-0.ebuild
+diff -Naur DependencyDeprecated.orig/DependencyDeprecated-0.ebuild DependencyDeprecated/DependencyDeprecated-0.ebuild
+--- DependencyDeprecated.orig/DependencyDeprecated-0.ebuild	2024-06-08 18:32:22.462288224 -0600
++++ DependencyDeprecated/DependencyDeprecated-0.ebuild	2024-07-06 12:46:07.888322344 -0600
 @@ -5,4 +5,3 @@
  LICENSE="MIT"
  SLOT="0"
  KEYWORDS="amd64"
 -DEPEND="stub/deprecated"
---- a/DependencyDeprecated-1.ebuild
-+++ b/DependencyDeprecated-1.ebuild
-@@ -5,9 +5,3 @@
+diff -Naur DependencyDeprecated.orig/DependencyDeprecated-1.ebuild DependencyDeprecated/DependencyDeprecated-1.ebuild
+--- DependencyDeprecated.orig/DependencyDeprecated-1.ebuild	2024-07-06 12:39:00.842167720 -0600
++++ DependencyDeprecated/DependencyDeprecated-1.ebuild	2024-07-06 12:46:14.944401440 -0600
+@@ -5,10 +5,3 @@
  LICENSE="MIT"
  SLOT="0"
  KEYWORDS="amd64"
--IUSE="u1 u2"
+-IUSE="u1 u2 u3"
 -DEPEND="
 -	u1? ( stub/deprecated )
 -	u2? ( >=stub/deprecated-0 )
+-	u3? ( stub/deprecated )
 -"
 -RDEPEND="stub/deprecated"

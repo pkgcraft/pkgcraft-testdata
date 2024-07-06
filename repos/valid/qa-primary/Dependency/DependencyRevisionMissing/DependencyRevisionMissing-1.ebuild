@@ -5,9 +5,10 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="u1 u2"
+IUSE="u1 u2 u3"
 DEPEND="
 	u1? ( =stub/revisioned-1 )
-	u2? ( =stub/revisioned-1 )
+	u2? ( =stub/revisioned-1-r1 )
+	u3? ( =stub/revisioned-1 )
 "
 RDEPEND="=stub/revisioned-1"

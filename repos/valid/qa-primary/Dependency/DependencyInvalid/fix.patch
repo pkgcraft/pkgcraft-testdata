@@ -1,16 +1,19 @@
 diff -Naur DependencyInvalid.orig/DependencyInvalid-0.ebuild DependencyInvalid/DependencyInvalid-0.ebuild
---- DependencyInvalid.orig/DependencyInvalid-0.ebuild	2024-07-06 01:07:12.161771000 -0600
-+++ DependencyInvalid/DependencyInvalid-0.ebuild	2024-07-06 11:24:51.186606628 -0600
-@@ -7,5 +7,5 @@
+--- DependencyInvalid.orig/DependencyInvalid-0.ebuild	2024-07-06 12:42:42.221942944 -0600
++++ DependencyInvalid/DependencyInvalid-0.ebuild	2024-07-06 12:47:17.244093735 -0600
+@@ -7,7 +7,7 @@
  KEYWORDS="amd64"
+ IUSE="u1 u2 u3"
  DEPEND="
- 	stub/slotted:0=
--	stub/slotted:1/0=
-+	stub/slotted:1=
+-	u1? ( stub/slotted:1/0= )
++	u1? ( stub/slotted:1= )
+ 	u2? ( stub/slotted:0= )
+-	u3? ( stub/slotted:1/0= )
++	u3? ( stub/slotted:1= )
  "
 diff -Naur DependencyInvalid.orig/DependencyInvalid-1.ebuild DependencyInvalid/DependencyInvalid-1.ebuild
 --- DependencyInvalid.orig/DependencyInvalid-1.ebuild	2024-07-06 11:22:01.526520978 -0600
-+++ DependencyInvalid/DependencyInvalid-1.ebuild	2024-07-06 11:25:02.360612269 -0600
++++ DependencyInvalid/DependencyInvalid-1.ebuild	2024-07-06 12:47:30.334237881 -0600
 @@ -5,4 +5,4 @@
  LICENSE="MIT"
  SLOT="0"
