@@ -3,7 +3,9 @@ DEPEND=|| ( stub/slotted:0 stub/slotted:1= )
 DESCRIPTION=Ebuild with = slot operator in any-of dep
 EAPI=8
 HOMEPAGE=https://pkgcraft.pkgcraft
+IUSE=u1 u2 u3
 KEYWORDS=amd64
 LICENSE=MIT
+RDEPEND=u1? ( || ( stub/slotted:0 stub/slotted:1= ) ) u2? ( || ( stub/slotted:0 stub/slotted:1 ) ) u3? ( || ( stub/slotted:0 stub/slotted:1= ) )
 SLOT=0
-_md5_=5fcfeb401f09249e9b1e41cafac7df1f
+_md5_=ac9f1cc8c43954a862d6f7771bdc35c7
