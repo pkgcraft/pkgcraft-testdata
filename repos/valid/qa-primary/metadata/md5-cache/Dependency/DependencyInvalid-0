@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DEPEND=stub/slotted:0= stub/slotted:1/0=
+DESCRIPTION=Ebuild with dependency using a subslot with slot operator
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=128851a58dd84c52565620215cd612e3
