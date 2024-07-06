@@ -1,6 +1,6 @@
 diff -Naur DependencyInvalid.orig/DependencyInvalid-0.ebuild DependencyInvalid/DependencyInvalid-0.ebuild
 --- DependencyInvalid.orig/DependencyInvalid-0.ebuild	2024-07-06 12:42:42.221942944 -0600
-+++ DependencyInvalid/DependencyInvalid-0.ebuild	2024-07-06 12:47:17.244093735 -0600
++++ DependencyInvalid/DependencyInvalid-0.ebuild	2024-07-06 13:48:31.261438883 -0600
 @@ -7,7 +7,7 @@
  KEYWORDS="amd64"
  IUSE="u1 u2 u3"
@@ -13,10 +13,19 @@ diff -Naur DependencyInvalid.orig/DependencyInvalid-0.ebuild DependencyInvalid/D
  "
 diff -Naur DependencyInvalid.orig/DependencyInvalid-1.ebuild DependencyInvalid/DependencyInvalid-1.ebuild
 --- DependencyInvalid.orig/DependencyInvalid-1.ebuild	2024-07-06 11:22:01.526520978 -0600
-+++ DependencyInvalid/DependencyInvalid-1.ebuild	2024-07-06 12:47:30.334237881 -0600
++++ DependencyInvalid/DependencyInvalid-1.ebuild	2024-07-06 13:48:31.261438883 -0600
 @@ -5,4 +5,4 @@
  LICENSE="MIT"
  SLOT="0"
  KEYWORDS="amd64"
 -PDEPEND="stub/slotted:0="
 +PDEPEND="stub/slotted:0"
+diff -Naur DependencyInvalid.orig/DependencyInvalid-2.ebuild DependencyInvalid/DependencyInvalid-2.ebuild
+--- DependencyInvalid.orig/DependencyInvalid-2.ebuild	2024-07-06 13:46:26.138223935 -0600
++++ DependencyInvalid/DependencyInvalid-2.ebuild	2024-07-06 13:48:37.214496686 -0600
+@@ -5,4 +5,4 @@
+ LICENSE="MIT"
+ SLOT="0"
+ KEYWORDS="amd64"
+-DEPEND="|| ( stub/slotted:0 stub/slotted:1= )"
++DEPEND="|| ( stub/slotted:0 stub/slotted:1 )"

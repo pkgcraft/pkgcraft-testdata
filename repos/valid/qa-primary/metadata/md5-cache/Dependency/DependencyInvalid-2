@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DEPEND=|| ( stub/slotted:0 stub/slotted:1= )
+DESCRIPTION=Ebuild with = slot operator in any-of dep
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=5fcfeb401f09249e9b1e41cafac7df1f
