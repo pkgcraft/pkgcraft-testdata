@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DEPEND=!Dependency/DependencyInvalid
+DESCRIPTION=Ebuild with invalid blocker matching package
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+RDEPEND=!!>=Dependency/DependencyInvalid-3
+SLOT=0
+_md5_=367a9ef311d06ea74e09f8dcf42ab81f

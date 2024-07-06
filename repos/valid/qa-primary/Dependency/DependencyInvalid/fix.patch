@@ -1,6 +1,6 @@
 diff -Naur DependencyInvalid.orig/DependencyInvalid-0.ebuild DependencyInvalid/DependencyInvalid-0.ebuild
 --- DependencyInvalid.orig/DependencyInvalid-0.ebuild	2024-07-06 14:48:20.604287972 -0600
-+++ DependencyInvalid/DependencyInvalid-0.ebuild	2024-07-06 14:48:31.644395159 -0600
++++ DependencyInvalid/DependencyInvalid-0.ebuild	2024-07-06 15:36:31.061351128 -0600
 @@ -7,7 +7,7 @@
  KEYWORDS="amd64"
  IUSE="u1 u2 u3"
@@ -13,7 +13,7 @@ diff -Naur DependencyInvalid.orig/DependencyInvalid-0.ebuild DependencyInvalid/D
  "
 diff -Naur DependencyInvalid.orig/DependencyInvalid-1.ebuild DependencyInvalid/DependencyInvalid-1.ebuild
 --- DependencyInvalid.orig/DependencyInvalid-1.ebuild	2024-07-06 14:48:20.604287972 -0600
-+++ DependencyInvalid/DependencyInvalid-1.ebuild	2024-07-06 14:48:44.618521123 -0600
++++ DependencyInvalid/DependencyInvalid-1.ebuild	2024-07-06 15:36:31.064351158 -0600
 @@ -5,5 +5,5 @@
  LICENSE="MIT"
  SLOT="0"
@@ -24,7 +24,7 @@ diff -Naur DependencyInvalid.orig/DependencyInvalid-1.ebuild DependencyInvalid/D
 +PDEPEND="stub/slotted:1"
 diff -Naur DependencyInvalid.orig/DependencyInvalid-2.ebuild DependencyInvalid/DependencyInvalid-2.ebuild
 --- DependencyInvalid.orig/DependencyInvalid-2.ebuild	2024-07-06 14:48:20.604287972 -0600
-+++ DependencyInvalid/DependencyInvalid-2.ebuild	2024-07-06 14:48:31.645395168 -0600
++++ DependencyInvalid/DependencyInvalid-2.ebuild	2024-07-06 15:36:31.064351158 -0600
 @@ -6,9 +6,9 @@
  SLOT="0"
  KEYWORDS="amd64"
@@ -38,3 +38,12 @@ diff -Naur DependencyInvalid.orig/DependencyInvalid-2.ebuild DependencyInvalid/D
 -	u3? ( || ( stub/slotted:0 stub/slotted:1= ) )
 +	u3? ( || ( stub/slotted:0 stub/slotted:1 ) )
  "
+diff -Naur DependencyInvalid.orig/DependencyInvalid-3.ebuild DependencyInvalid/DependencyInvalid-3.ebuild
+--- DependencyInvalid.orig/DependencyInvalid-3.ebuild	2024-07-06 15:35:08.052545203 -0600
++++ DependencyInvalid/DependencyInvalid-3.ebuild	2024-07-06 15:36:58.255615154 -0600
+@@ -5,5 +5,3 @@
+ LICENSE="MIT"
+ SLOT="0"
+ KEYWORDS="amd64"
+-DEPEND="!Dependency/DependencyInvalid"
+-RDEPEND="!!>=Dependency/DependencyInvalid-3"
