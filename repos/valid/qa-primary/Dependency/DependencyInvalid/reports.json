@@ -1,1 +1,2 @@
 {"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-0",null]},"message":"DEPEND: = slot operator with subslot: stub/slotted:1/0="}
+{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-1",null]},"message":"PDEPEND: = slot operator invalid: stub/slotted:0="}

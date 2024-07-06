@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with = slot operator in PDEPEND
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+PDEPEND=stub/slotted:0=
+SLOT=0
+_md5_=062a35f9f0347340eee3561a1a0d4af9
