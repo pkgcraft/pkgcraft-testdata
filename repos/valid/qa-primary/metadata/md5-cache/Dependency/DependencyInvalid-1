@@ -1,9 +1,10 @@
 DEFINED_PHASES=-
-DESCRIPTION=Ebuild with = slot operator in PDEPEND
+DEPEND=!stub/slotted:0=
+DESCRIPTION=Ebuild with invalid = slot operator usage
 EAPI=8
 HOMEPAGE=https://pkgcraft.pkgcraft
 KEYWORDS=amd64
 LICENSE=MIT
-PDEPEND=stub/slotted:0=
+PDEPEND=stub/slotted:1=
 SLOT=0
-_md5_=062a35f9f0347340eee3561a1a0d4af9
+_md5_=3bceed2f3b98ced07d61f5d42965cd62

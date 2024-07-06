@@ -1,6 +1,6 @@
 EAPI=8
 
-DESCRIPTION="Ebuild with dependency using a subslot with slot operator"
+DESCRIPTION="Ebuild with invalid = slot operator usage"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
 SLOT="0"
