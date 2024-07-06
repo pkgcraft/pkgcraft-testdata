@@ -46,6 +46,10 @@ valid = [
   { dep = "a/b:*", eapis = "5..", category = "a", package = "b", slot_op = "*" },
   { dep = "a/b:=", eapis = "5..", category = "a", package = "b", slot_op = "=" },
   { dep = "a/b:0=", eapis = "5..", category = "a", package = "b", slot = "0", slot_op = "=" },
+  # The equals slot operator with explicit subslot is only allowed in installed package
+  # metadata and not in ebuilds; however, pkgcraft globally allows it and flags ebuild
+  # usage via pkgcruft instead to maintain a simpler parser.
+  { dep = "a/b:0/1=", eapis = "5..", category = "a", package = "b", slot = "0", subslot = "1", slot_op = "=" },
   # all official fields
   { dep = "!!=cat/pkg-1-r2:3/4=[a,b,c]", eapis = "5..", category = "cat", package = "pkg", blocker = "!!", version = "=1-r2", revision = "2", slot = "3", subslot = "4", slot_op = "=", use = ["a", "b", "c"] },
   # repo deps in unofficial EAPIs
@@ -100,6 +104,8 @@ invalid = [
   "a/b:/",
   "a/b:/0",
   "a/b:0/",
+  "a/b:0/*",
+  "a/b:0/=",
   "a/b:0/+1",
   "a/b:0//1",
   "a/b:0/1/2",
