@@ -5,3 +5,5 @@
 {"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-2",null]},"message":"RDEPEND: = slot operator in any-of: stub/slotted:1="}
 {"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-3",null]},"message":"DEPEND: blocker matches package: !Dependency/DependencyInvalid"}
 {"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-3",null]},"message":"RDEPEND: blocker matches package: !!>=Dependency/DependencyInvalid-3"}
+{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-4",null]},"message":"DEPEND: missing IUSE=u1: stub/pkg[u1?]"}
+{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-4",null]},"message":"RDEPEND: missing IUSE=u2: stub/pkg[!u2?]"}

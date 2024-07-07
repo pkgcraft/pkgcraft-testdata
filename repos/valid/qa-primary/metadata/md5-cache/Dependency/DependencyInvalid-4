@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DEPEND=stub/pkg[u1?]
+DESCRIPTION=Ebuild with conditional use deps lacking IUSE
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+RDEPEND=stub/pkg[!u2?]
+SLOT=0
+_md5_=ea14583ae49f8837842a1b2c73b0d0bd
