@@ -5,6 +5,7 @@ EapiStatus
 Keywords
 KeywordsDropped
 License
+Restrict
 RestrictTestMissing
 UnstableOnly
 UseLocal

@@ -1,0 +1,9 @@
+diff -Naur RestrictInvalid.orig/RestrictInvalid-0.ebuild RestrictInvalid/RestrictInvalid-0.ebuild
+--- RestrictInvalid.orig/RestrictInvalid-0.ebuild	2024-07-08 18:29:11.302737316 -0600
++++ RestrictInvalid/RestrictInvalid-0.ebuild	2024-07-08 18:31:31.004160215 -0600
+@@ -5,4 +5,4 @@
+ LICENSE="MIT"
+ SLOT="0"
+ KEYWORDS="amd64"
+-RESTRICT="restrict1 restrict2 restrict3"
++RESTRICT="restrict1"
