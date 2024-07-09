@@ -1,0 +1,9 @@
+diff -Naur PropertiesInvalid.orig/PropertiesInvalid-0.ebuild PropertiesInvalid/PropertiesInvalid-0.ebuild
+--- PropertiesInvalid.orig/PropertiesInvalid-0.ebuild	2024-07-08 18:35:42.199490678 -0600
++++ PropertiesInvalid/PropertiesInvalid-0.ebuild	2024-07-08 18:36:42.737100091 -0600
+@@ -5,4 +5,4 @@
+ LICENSE="MIT"
+ SLOT="0"
+ KEYWORDS="amd64"
+-PROPERTIES="property1 property2 property3"
++PROPERTIES="property1"

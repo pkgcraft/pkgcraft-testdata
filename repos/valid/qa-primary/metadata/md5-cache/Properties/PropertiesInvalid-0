@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with invalid PROPERTIES
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+PROPERTIES=property1 property2 property3
+SLOT=0
+_md5_=de75748c25194b543df6bd843edee787
