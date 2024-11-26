@@ -11,7 +11,7 @@
 	</maintainer>
 	<use lang="en">
 		<flag name="flag1">flag1 desc</flag>
-		<flag name="flag2">flag2 desc</flag>
+		<flag name="flag2">flag2 desc <pkg>cat/pkg </pkg></flag>
 	</use>
 	<use lang="zx">
 		<flag name="flag1">flag1 desc</flag>

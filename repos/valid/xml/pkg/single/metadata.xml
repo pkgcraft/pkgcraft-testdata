@@ -6,7 +6,7 @@
 		<name>A Person</name>
 	</maintainer>
 	<use>
-		<flag name="flag">flag desc</flag>
+		<flag name="flag">flag desc <pkg>cat/pkg</pkg> </flag>
 	</use>
 	<upstream>
 		<remote-id type="github">pkgcraft/pkgcraft</remote-id>
