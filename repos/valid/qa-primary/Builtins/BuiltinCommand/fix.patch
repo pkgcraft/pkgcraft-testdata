@@ -1,0 +1,20 @@
+diff -Naur BuiltinCommand.orig/BuiltinCommand-0.ebuild BuiltinCommand/BuiltinCommand-0.ebuild
+--- BuiltinCommand.orig/BuiltinCommand-0.ebuild	2024-12-01 13:22:47.662423252 -0700
++++ BuiltinCommand/BuiltinCommand-0.ebuild	2024-12-01 13:25:09.499438572 -0700
+@@ -6,9 +6,13 @@
+ SLOT="0"
+ 
+ src_install() {
+-	find "${S}/man" -name '*.1' -exec doman '{}' + || die
++	for f in $(find "${S}/man" -name '*.1'); do
++		doman "${f}"
++	done
+ 
++	local files=()
+ 	for f in ${A}; do
+-		[[ ${f} == *.rtb[wz] ]] && echo "${DISTDIR}"/${f}
+-	done | xargs doins
++		[[ ${f} == *.rtb[wz] ]] && files+=( "${DISTDIR}"/${f} )
++	done
++	doins "${files[@]}"
+ }
