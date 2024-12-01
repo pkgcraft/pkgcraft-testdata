@@ -1,9 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Stub ebuild that has IUSE
-EAPI=8
-HOMEPAGE=https://pkgcraft.pkgcraft
-IUSE=u1 u2 u3
-KEYWORDS=amd64
-LICENSE=MIT
-SLOT=0
-_md5_=75e781657513ee8d9dfc450a533fb6a0

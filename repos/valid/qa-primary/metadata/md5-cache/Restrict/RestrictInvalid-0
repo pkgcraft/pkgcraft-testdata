@@ -1,9 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Ebuild with invalid RESTRICT
-EAPI=8
-HOMEPAGE=https://pkgcraft.pkgcraft
-KEYWORDS=amd64
-LICENSE=MIT
-RESTRICT=restrict1 restrict2 restrict3
-SLOT=0
-_md5_=b8797739f53893739137267ee5aa967b
