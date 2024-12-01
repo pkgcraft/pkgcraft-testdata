@@ -1,4 +1,6 @@
+{"kind":"EbuildNameInvalid","scope":{"Version":["EbuildName/EbuildNameInvalid-000",null]},"message":"version overlaps: 0"}
+{"kind":"EbuildNameInvalid","scope":{"Version":["EbuildName/EbuildNameInvalid-0-r0",null]},"message":"version overlaps: 0"}
 {"kind":"EbuildNameInvalid","scope":{"Package":"EbuildName/EbuildNameInvalid"},"message":"EbuildNameInvalid-0-1.ebuild: invalid version: 0-1"}
-{"kind":"EbuildNameInvalid","scope":{"Package":"EbuildName/EbuildNameInvalid"},"message":"EbuildNameInvalid-1-a.ebuild: invalid version: 1-a"}
+{"kind":"EbuildNameInvalid","scope":{"Package":"EbuildName/EbuildNameInvalid"},"message":"EbuildNameInvalid-1.a.ebuild: invalid version: 1.a"}
 {"kind":"EbuildNameInvalid","scope":{"Package":"EbuildName/EbuildNameInvalid"},"message":"EbuildNameInvalid.ebuild: missing version"}
 {"kind":"EbuildNameInvalid","scope":{"Package":"EbuildName/EbuildNameInvalid"},"message":"EbuildNameInvalid1-2.ebuild: mismatched package name"}
