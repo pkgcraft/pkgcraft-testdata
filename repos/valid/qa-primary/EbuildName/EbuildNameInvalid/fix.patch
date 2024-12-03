@@ -1,15 +1,5 @@
-diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-000.ebuild EbuildNameInvalid/EbuildNameInvalid-000.ebuild
---- EbuildNameInvalid.orig/EbuildNameInvalid-000.ebuild	2024-12-01 07:48:54.236860947 -0700
-+++ EbuildNameInvalid/EbuildNameInvalid-000.ebuild	1969-12-31 17:00:00.000000000 -0700
-@@ -1,6 +0,0 @@
--EAPI=8
--
--DESCRIPTION="Ebuild with overlapping version"
--HOMEPAGE="https://pkgcraft.pkgcraft"
--LICENSE="MIT"
--SLOT="0"
 diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-0-1.ebuild EbuildNameInvalid/EbuildNameInvalid-0-1.ebuild
---- EbuildNameInvalid.orig/EbuildNameInvalid-0-1.ebuild	2024-12-01 06:40:51.372218533 -0700
+--- EbuildNameInvalid.orig/EbuildNameInvalid-0-1.ebuild	2024-12-01 07:57:41.211005438 -0700
 +++ EbuildNameInvalid/EbuildNameInvalid-0-1.ebuild	1969-12-31 17:00:00.000000000 -0700
 @@ -1,6 +0,0 @@
 -EAPI=8
@@ -20,7 +10,7 @@ diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-0-1.ebuild EbuildNameInvalid
 -SLOT="0"
 diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-0.1.ebuild EbuildNameInvalid/EbuildNameInvalid-0.1.ebuild
 --- EbuildNameInvalid.orig/EbuildNameInvalid-0.1.ebuild	1969-12-31 17:00:00.000000000 -0700
-+++ EbuildNameInvalid/EbuildNameInvalid-0.1.ebuild	2024-12-01 06:40:51.372218533 -0700
++++ EbuildNameInvalid/EbuildNameInvalid-0.1.ebuild	2024-12-01 07:57:41.211005438 -0700
 @@ -0,0 +1,6 @@
 +EAPI=8
 +
@@ -28,19 +18,9 @@ diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-0.1.ebuild EbuildNameInvalid
 +HOMEPAGE="https://pkgcraft.pkgcraft"
 +LICENSE="MIT"
 +SLOT="0"
-diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-0-r0.ebuild EbuildNameInvalid/EbuildNameInvalid-0-r0.ebuild
---- EbuildNameInvalid.orig/EbuildNameInvalid-0-r0.ebuild	2024-12-01 07:49:09.913921541 -0700
-+++ EbuildNameInvalid/EbuildNameInvalid-0-r0.ebuild	1969-12-31 17:00:00.000000000 -0700
-@@ -1,6 +0,0 @@
--EAPI=8
--
--DESCRIPTION="Ebuild with overlapping version"
--HOMEPAGE="https://pkgcraft.pkgcraft"
--LICENSE="MIT"
--SLOT="0"
 diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-1.2.ebuild EbuildNameInvalid/EbuildNameInvalid-1.2.ebuild
 --- EbuildNameInvalid.orig/EbuildNameInvalid-1.2.ebuild	1969-12-31 17:00:00.000000000 -0700
-+++ EbuildNameInvalid/EbuildNameInvalid-1.2.ebuild	2024-12-01 07:52:49.377794208 -0700
++++ EbuildNameInvalid/EbuildNameInvalid-1.2.ebuild	2024-12-01 07:57:41.212005442 -0700
 @@ -0,0 +1,6 @@
 +EAPI=8
 +
@@ -49,7 +29,7 @@ diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-1.2.ebuild EbuildNameInvalid
 +LICENSE="MIT"
 +SLOT="0"
 diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid1-2.ebuild EbuildNameInvalid/EbuildNameInvalid1-2.ebuild
---- EbuildNameInvalid.orig/EbuildNameInvalid1-2.ebuild	2024-12-01 07:52:49.377794208 -0700
+--- EbuildNameInvalid.orig/EbuildNameInvalid1-2.ebuild	2024-12-01 07:57:41.212005442 -0700
 +++ EbuildNameInvalid/EbuildNameInvalid1-2.ebuild	1969-12-31 17:00:00.000000000 -0700
 @@ -1,6 +0,0 @@
 -EAPI=8
@@ -59,7 +39,7 @@ diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid1-2.ebuild EbuildNameInvalid/
 -LICENSE="MIT"
 -SLOT="0"
 diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-1.a.ebuild EbuildNameInvalid/EbuildNameInvalid-1.a.ebuild
---- EbuildNameInvalid.orig/EbuildNameInvalid-1.a.ebuild	2024-12-01 06:41:21.058290405 -0700
+--- EbuildNameInvalid.orig/EbuildNameInvalid-1.a.ebuild	2024-12-01 07:57:41.212005442 -0700
 +++ EbuildNameInvalid/EbuildNameInvalid-1.a.ebuild	1969-12-31 17:00:00.000000000 -0700
 @@ -1,6 +0,0 @@
 -EAPI=8
@@ -70,7 +50,7 @@ diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-1.a.ebuild EbuildNameInvalid
 -SLOT="0"
 diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-1a.ebuild EbuildNameInvalid/EbuildNameInvalid-1a.ebuild
 --- EbuildNameInvalid.orig/EbuildNameInvalid-1a.ebuild	1969-12-31 17:00:00.000000000 -0700
-+++ EbuildNameInvalid/EbuildNameInvalid-1a.ebuild	2024-12-01 06:41:21.058290405 -0700
++++ EbuildNameInvalid/EbuildNameInvalid-1a.ebuild	2024-12-01 07:57:41.212005442 -0700
 @@ -0,0 +1,6 @@
 +EAPI=8
 +
@@ -79,7 +59,7 @@ diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid-1a.ebuild EbuildNameInvalid/
 +LICENSE="MIT"
 +SLOT="0"
 diff -Naur EbuildNameInvalid.orig/EbuildNameInvalid.ebuild EbuildNameInvalid/EbuildNameInvalid.ebuild
---- EbuildNameInvalid.orig/EbuildNameInvalid.ebuild	2024-12-01 06:53:22.623372998 -0700
+--- EbuildNameInvalid.orig/EbuildNameInvalid.ebuild	2024-12-01 07:57:41.212005442 -0700
 +++ EbuildNameInvalid/EbuildNameInvalid.ebuild	1969-12-31 17:00:00.000000000 -0700
 @@ -1,6 +0,0 @@
 -EAPI=8

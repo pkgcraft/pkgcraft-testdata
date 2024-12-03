@@ -1,0 +1,20 @@
+diff -Naur EbuildVersionsEqual.orig/EbuildVersionsEqual-000.ebuild EbuildVersionsEqual/EbuildVersionsEqual-000.ebuild
+--- EbuildVersionsEqual.orig/EbuildVersionsEqual-000.ebuild	2024-12-03 14:41:53.384127682 -0700
++++ EbuildVersionsEqual/EbuildVersionsEqual-000.ebuild	1969-12-31 17:00:00.000000000 -0700
+@@ -1,6 +0,0 @@
+-EAPI=8
+-
+-DESCRIPTION="Ebuild with equivalent version"
+-HOMEPAGE="https://pkgcraft.pkgcraft"
+-LICENSE="MIT"
+-SLOT="0"
+diff -Naur EbuildVersionsEqual.orig/EbuildVersionsEqual-0-r0.ebuild EbuildVersionsEqual/EbuildVersionsEqual-0-r0.ebuild
+--- EbuildVersionsEqual.orig/EbuildVersionsEqual-0-r0.ebuild	2024-12-03 14:42:04.826217696 -0700
++++ EbuildVersionsEqual/EbuildVersionsEqual-0-r0.ebuild	1969-12-31 17:00:00.000000000 -0700
+@@ -1,6 +0,0 @@
+-EAPI=8
+-
+-DESCRIPTION="Ebuild with equivalent version"
+-HOMEPAGE="https://pkgcraft.pkgcraft"
+-LICENSE="MIT"
+-SLOT="0"
