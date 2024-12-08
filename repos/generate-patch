@@ -2,15 +2,35 @@
 # Generate compatible patch files for pkgcruft tests.
 #
 # Usage: Modify files under a given directory and then run this script in the
-# directory, add the generated patch file to the git repo, and finally discard
-# the file changes.
+# directory. Note that `git clean -fxd` will be run automatically and the
+# generated patch file must be manually added to the repo.
+
+# Scrub unnecessary header info from patch files.
+scrub_patch() {
+	sed -i \
+		-e '/^diff/d' \
+		-e '/^---/s:\t.*::' \
+		-e 's:^--- .*\.orig/:--- a/:' \
+		-e '/^+++/s:\t.*::' \
+		-e 's:^+++ .*/:+++ b/:' \
+		"$@"
+}
 
 set -e
 
+TARGET_DIR=${PWD/*\//}
+cd ..
+cp -av "${TARGET_DIR}" "${TARGET_DIR}".new >/dev/null
+git checkout "${TARGET_DIR}" &>/dev/null
+mv "${TARGET_DIR}" "${TARGET_DIR}".orig
+mv "${TARGET_DIR}".new "${TARGET_DIR}"
+# generate patch file
 FILE=$(mktemp -p .)
-# generate a patch file using relative paths
-git diff --relative -- . ':(exclude)*.patch' > "${FILE}"
-# remove git header lines
-sed -i 1,2d "${FILE}"
+diff -x fix.patch -Naur "${TARGET_DIR}".orig "${TARGET_DIR}" > "${FILE}" || true
+scrub_patch "${FILE}"
+mv "${TARGET_DIR}" "${TARGET_DIR}".old
+mv "${TARGET_DIR}".orig "${TARGET_DIR}"
 # move file to expected location
-mv "${FILE}" fix.patch
+mv "${FILE}" "${TARGET_DIR}"/fix.patch
+git clean -fxd >/dev/null
+cd "${TARGET_DIR}"
