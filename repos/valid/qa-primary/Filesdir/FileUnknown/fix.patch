@@ -1,0 +1,8 @@
+--- a/FileUnknown-0.ebuild
++++ b/FileUnknown-0.ebuild
+@@ -7,5 +7,4 @@
+ 
+ PATCHES=(
+ 	"${FILESDIR}"/existent.patch
+-	"${FILESDIR}"/nonexistent.patch
+ )
