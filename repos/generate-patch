@@ -2,19 +2,8 @@
 # Generate compatible patch files for pkgcruft tests.
 #
 # Usage: Modify files under a given directory and then run this script in the
-# directory. Note that `git clean -fxd` will be run automatically and the
-# generated patch file must be manually added to the repo.
-
-# Scrub unnecessary header info from patch files.
-scrub_patch() {
-	sed -i \
-		-e '/^diff/d' \
-		-e '/^---/s:\t.*::' \
-		-e 's:^--- .*\.orig/:--- a/:' \
-		-e '/^+++/s:\t.*::' \
-		-e 's:^+++ .*/:+++ b/:' \
-		"$@"
-}
+# directory. Note that `git clean -fxd` is run automatically and the generated
+# patch file is staged.
 
 set -e
 
@@ -27,10 +16,10 @@ mv "${TARGET_DIR}".new "${TARGET_DIR}"
 # generate patch file
 FILE=$(mktemp -p .)
 diff -x fix.patch -Naur "${TARGET_DIR}".orig "${TARGET_DIR}" > "${FILE}" || true
-scrub_patch "${FILE}"
 mv "${TARGET_DIR}" "${TARGET_DIR}".old
 mv "${TARGET_DIR}".orig "${TARGET_DIR}"
 # move file to expected location
 mv "${FILE}" "${TARGET_DIR}"/fix.patch
+git add "${TARGET_DIR}"/fix.patch
 git clean -fxd >/dev/null
 cd "${TARGET_DIR}"
