@@ -1,0 +1,5 @@
+diff -x fix.patch -Naur FilesUnused.orig/files/existent.patch FilesUnused/files/existent.patch
+--- FilesUnused.orig/files/existent.patch	2024-12-08 13:21:11.952866837 -0700
++++ FilesUnused/files/existent.patch	1969-12-31 17:00:00.000000000 -0700
+@@ -1 +0,0 @@
+-# stub file
