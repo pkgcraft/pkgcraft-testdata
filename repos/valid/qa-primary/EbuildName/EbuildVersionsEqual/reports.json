@@ -1,1 +1,1 @@
-{"kind":"EbuildVersionsEqual","scope":{"Package":"EbuildName/EbuildVersionsEqual"},"message":"versions overlap: 0, 0-r0, 000"}
+{"kind":"EbuildVersionsEqual","scope":{"Package":"EbuildName/EbuildVersionsEqual"},"message":"versions overlap: 0, 0-r0, 0-r00, 000"}
