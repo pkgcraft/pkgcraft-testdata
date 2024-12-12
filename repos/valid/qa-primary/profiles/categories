@@ -13,6 +13,7 @@ Live
 Properties
 Restrict
 RestrictTestMissing
+SrcUri
 UnstableOnly
 UseLocal
 VariableOrder
