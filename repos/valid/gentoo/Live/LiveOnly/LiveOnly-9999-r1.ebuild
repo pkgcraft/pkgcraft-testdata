@@ -3,8 +3,9 @@
 
 EAPI=8
 
-DESCRIPTION="Ebuild internally denoting live property"
+inherit vcs
+
+DESCRIPTION="Ebuild using vcs eclass"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
 SLOT="0"
-PROPERTIES="live"
