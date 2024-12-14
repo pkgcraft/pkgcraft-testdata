@@ -1,21 +1,24 @@
---- a/HeaderInvalid-2.ebuild
-+++ b/HeaderInvalid-2.ebuild
+diff -x fix.patch -Naur HeaderInvalid.orig/HeaderInvalid-2.ebuild HeaderInvalid/HeaderInvalid-2.ebuild
+--- HeaderInvalid.orig/HeaderInvalid-2.ebuild	2024-12-14 15:04:02.568733850 -0700
++++ HeaderInvalid/HeaderInvalid-2.ebuild	2024-12-14 15:03:47.806640129 -0700
 @@ -1,4 +1,4 @@
 -# Copyright 1999-2024 Gentoo Foundation
 +# Copyright 1999-2024 Gentoo Authors
  # Distributed under the terms of the GNU General Public License v2
  
  EAPI=8
---- a/HeaderInvalid-3.ebuild
-+++ b/HeaderInvalid-3.ebuild
+diff -x fix.patch -Naur HeaderInvalid.orig/HeaderInvalid-3.ebuild HeaderInvalid/HeaderInvalid-3.ebuild
+--- HeaderInvalid.orig/HeaderInvalid-3.ebuild	2024-12-14 15:04:02.568733850 -0700
++++ HeaderInvalid/HeaderInvalid-3.ebuild	2024-12-14 15:03:47.807640135 -0700
 @@ -1,4 +1,4 @@
 -# Copyright Gentoo Authors
 +# Copyright 1999-2024 Gentoo Authors
  # Distributed under the terms of the GNU General Public License v2
  
  EAPI=8
---- a/HeaderInvalid-4.ebuild
-+++ b/HeaderInvalid-4.ebuild
+diff -x fix.patch -Naur HeaderInvalid.orig/HeaderInvalid-4.ebuild HeaderInvalid/HeaderInvalid-4.ebuild
+--- HeaderInvalid.orig/HeaderInvalid-4.ebuild	2024-12-14 15:04:02.568733850 -0700
++++ HeaderInvalid/HeaderInvalid-4.ebuild	2024-12-14 15:03:47.807640135 -0700
 @@ -1,5 +1,5 @@
  # Copyright 1999-2019 Gentoo Authors
 -# MIT
@@ -23,16 +26,18 @@
  
  EAPI=8
  
---- a/HeaderInvalid-5.ebuild
-+++ b/HeaderInvalid-5.ebuild
+diff -x fix.patch -Naur HeaderInvalid.orig/HeaderInvalid-5.ebuild HeaderInvalid/HeaderInvalid-5.ebuild
+--- HeaderInvalid.orig/HeaderInvalid-5.ebuild	2024-12-14 15:04:02.568733850 -0700
++++ HeaderInvalid/HeaderInvalid-5.ebuild	2024-12-14 15:03:47.807640135 -0700
 @@ -1,4 +1,5 @@
  # Copyright 1999-2019 Gentoo Authors
 +# Distributed under the terms of the GNU General Public License v2
  
  EAPI=8
  
---- a/HeaderInvalid-6.ebuild
-+++ b/HeaderInvalid-6.ebuild
+diff -x fix.patch -Naur HeaderInvalid.orig/HeaderInvalid-6.ebuild HeaderInvalid/HeaderInvalid-6.ebuild
+--- HeaderInvalid.orig/HeaderInvalid-6.ebuild	2024-12-14 15:04:02.569733856 -0700
++++ HeaderInvalid/HeaderInvalid-6.ebuild	2024-12-14 15:03:47.807640135 -0700
 @@ -1,3 +1,6 @@
 +# Copyright 1999-2024 Gentoo Authors
 +# Distributed under the terms of the GNU General Public License v2
@@ -40,3 +45,11 @@
  EAPI=8
  
  DESCRIPTION="Package with missing header"
+diff -x fix.patch -Naur HeaderInvalid.orig/HeaderInvalid-9999.ebuild HeaderInvalid/HeaderInvalid-9999.ebuild
+--- HeaderInvalid.orig/HeaderInvalid-9999.ebuild	2024-12-14 15:04:02.569733856 -0700
++++ HeaderInvalid/HeaderInvalid-9999.ebuild	2024-12-14 15:03:56.597695928 -0700
+@@ -1,3 +1,4 @@
++# Copyright 1999-2024 Gentoo Authors
+ # Distributed under the terms of the GNU General Public License v2
+ 
+ EAPI=8
