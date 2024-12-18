@@ -3,4 +3,4 @@ DESCRIPTION=ebuild with missing metadata cache eclass checksum
 EAPI=8
 INHERIT=a
 SLOT=0
-_md5_=1425933f571fc97a3494f1d3fc16f62d
+_md5_=88e50a9958bb7486366c61964e3db4df
