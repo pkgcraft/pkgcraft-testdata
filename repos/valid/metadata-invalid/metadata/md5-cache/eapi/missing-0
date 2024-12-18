@@ -1,0 +1,4 @@
+DEFINED_PHASES=-
+DESCRIPTION=ebuild with missing metadata cache EAPI
+SLOT=0
+_md5_=fbd1179a4e6396f92c138d72e36a07a0
