@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=ebuild with missing metadata cache eclass checksum
+EAPI=8
+INHERIT=a
+SLOT=0
+_md5_=1425933f571fc97a3494f1d3fc16f62d

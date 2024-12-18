@@ -1,0 +1,4 @@
+DEFINED_PHASES=-
+DESCRIPTION=ebuild with missing metadata cache ebuild checksum
+EAPI=8
+SLOT=0
