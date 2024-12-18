@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=ebuild with nonexistent metadata cache eclass
+EAPI=8
+INHERIT=a
+SLOT=0
+_eclasses_=a	e84ea35911850d16305c29fe24d82f17	b	e84ea35911850d16305c29fe24d82f17
+_md5_=a3fed194c9b95f17b5541c4377780f4a
