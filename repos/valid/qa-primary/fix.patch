@@ -1,11 +1,16 @@
-diff -Naur qa-primary.orig/CategoryEmpty/PackageEmpty/.empty qa-primary/CategoryEmpty/PackageEmpty/.empty
---- qa-primary.orig/CategoryEmpty/PackageEmpty/.empty	2024-12-03 14:22:35.710922676 -0700
+diff -x fix.patch -Naur qa-primary.orig/CategoryEmpty/PackageEmpty/.empty qa-primary/CategoryEmpty/PackageEmpty/.empty
+--- qa-primary.orig/CategoryEmpty/PackageEmpty/.empty	2024-12-19 05:01:40.579386426 -0700
 +++ qa-primary/CategoryEmpty/PackageEmpty/.empty	1969-12-31 17:00:00.000000000 -0700
 @@ -1 +0,0 @@
 -# purposely empty package dir
-diff -Naur qa-primary.orig/profiles/categories qa-primary/profiles/categories
---- qa-primary.orig/profiles/categories	2024-12-03 14:21:55.050704238 -0700
-+++ qa-primary/profiles/categories	2024-12-03 14:23:01.402065169 -0700
+diff -x fix.patch -Naur qa-primary.orig/licenses/deprecated qa-primary/licenses/deprecated
+--- qa-primary.orig/licenses/deprecated	2024-12-19 05:01:40.579386426 -0700
++++ qa-primary/licenses/deprecated	1969-12-31 17:00:00.000000000 -0700
+@@ -1 +0,0 @@
+-# deprecated stub license
+diff -x fix.patch -Naur qa-primary.orig/profiles/categories qa-primary/profiles/categories
+--- qa-primary.orig/profiles/categories	2024-12-19 05:01:40.579386426 -0700
++++ qa-primary/profiles/categories	2024-12-19 05:01:30.725312655 -0700
 @@ -1,5 +1,4 @@
  Builtins
 -CategoryEmpty
