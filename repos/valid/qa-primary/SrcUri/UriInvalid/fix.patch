@@ -1,0 +1,11 @@
+diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-0.ebuild UriInvalid/UriInvalid-0.ebuild
+--- UriInvalid.orig/UriInvalid-0.ebuild	2024-12-12 05:19:54.330832197 -0700
++++ UriInvalid/UriInvalid-0.ebuild	2024-12-12 05:19:50.367810787 -0700
+@@ -2,6 +2,6 @@
+ 
+ DESCRIPTION="Ebuild with unsupported URI protocol"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+-SRC_URI="ftp://pkgcraft.pkgcraft/file"
++SRC_URI="https://pkgcraft.pkgcraft/file"
+ LICENSE="MIT"
+ SLOT="0"
