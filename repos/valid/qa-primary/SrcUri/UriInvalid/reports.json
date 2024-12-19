@@ -1,3 +1,6 @@
 {"kind":"UriInvalid","scope":{"Version":["SrcUri/UriInvalid-0",null]},"message":"unsupported protocol: ftp://pkgcraft.pkgcraft/file"}
 {"kind":"UriInvalid","scope":{"Version":["SrcUri/UriInvalid-1",null]},"message":"relative URL without a base: file"}
 {"kind":"UriInvalid","scope":{"Version":["SrcUri/UriInvalid-2",null]},"message":"target missing: https://pkgcraft.pkgcraft/"}
+{"kind":"UriInvalid","scope":{"Version":["SrcUri/UriInvalid-3",null]},"message":"mirror missing: mirror://"}
+{"kind":"UriInvalid","scope":{"Version":["SrcUri/UriInvalid-3",null]},"message":"mirror missing: mirror://file"}
+{"kind":"UriInvalid","scope":{"Version":["SrcUri/UriInvalid-4",null]},"message":"mirror unknown: mirror://mirror/file"}
