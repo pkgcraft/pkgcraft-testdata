@@ -1,6 +1,6 @@
 diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-0.ebuild UriInvalid/UriInvalid-0.ebuild
---- UriInvalid.orig/UriInvalid-0.ebuild	2024-12-19 00:55:48.420907993 -0700
-+++ UriInvalid/UriInvalid-0.ebuild	2024-12-19 00:55:35.834803795 -0700
+--- UriInvalid.orig/UriInvalid-0.ebuild	2024-12-19 01:50:24.531549342 -0700
++++ UriInvalid/UriInvalid-0.ebuild	2024-12-19 01:50:20.318523071 -0700
 @@ -2,6 +2,6 @@
  
  DESCRIPTION="Ebuild with unsupported URI protocol"
@@ -10,10 +10,21 @@ diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-0.ebuild UriInvalid/UriInvali
  LICENSE="MIT"
  SLOT="0"
 diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-1.ebuild UriInvalid/UriInvalid-1.ebuild
---- UriInvalid.orig/UriInvalid-1.ebuild	2024-12-19 00:55:48.420907993 -0700
-+++ UriInvalid/UriInvalid-1.ebuild	2024-12-19 00:55:46.514892263 -0700
+--- UriInvalid.orig/UriInvalid-1.ebuild	2024-12-19 01:50:24.531549342 -0700
++++ UriInvalid/UriInvalid-1.ebuild	2024-12-19 01:50:20.318523071 -0700
 @@ -5,3 +5,4 @@
  SRC_URI="file"
  LICENSE="MIT"
  SLOT="0"
 +RESTRICT="fetch"
+diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-2.ebuild UriInvalid/UriInvalid-2.ebuild
+--- UriInvalid.orig/UriInvalid-2.ebuild	2024-12-19 01:50:24.531549342 -0700
++++ UriInvalid/UriInvalid-2.ebuild	2024-12-19 01:50:20.318523071 -0700
+@@ -2,6 +2,6 @@
+ 
+ DESCRIPTION="Ebuild with URI target missing"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+-SRC_URI="https://pkgcraft.pkgcraft/"
++SRC_URI="https://pkgcraft.pkgcraft/file"
+ LICENSE="MIT"
+ SLOT="0"
