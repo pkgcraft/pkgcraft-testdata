@@ -1,3 +1,3 @@
 {"kind":"UriInvalid","scope":{"Version":["SrcUri/UriInvalid-0",null]},"message":"unsupported protocol: ftp://pkgcraft.pkgcraft/file"}
-{"kind":"UriInvalid","scope":{"Version":["SrcUri/UriInvalid-1",null]},"message":"relative URL without a base"}
+{"kind":"UriInvalid","scope":{"Version":["SrcUri/UriInvalid-1",null]},"message":"relative URL without a base: file"}
 {"kind":"UriInvalid","scope":{"Version":["SrcUri/UriInvalid-2",null]},"message":"target missing: https://pkgcraft.pkgcraft/"}
