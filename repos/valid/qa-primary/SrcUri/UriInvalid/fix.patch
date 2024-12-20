@@ -1,6 +1,6 @@
 diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-0.ebuild UriInvalid/UriInvalid-0.ebuild
---- UriInvalid.orig/UriInvalid-0.ebuild	2024-12-19 02:08:11.351125416 -0700
-+++ UriInvalid/UriInvalid-0.ebuild	2024-12-19 02:07:52.343008297 -0700
+--- UriInvalid.orig/UriInvalid-0.ebuild	2024-12-19 17:09:16.847941356 -0700
++++ UriInvalid/UriInvalid-0.ebuild	2024-12-19 17:08:23.093806844 -0700
 @@ -2,6 +2,6 @@
  
  DESCRIPTION="Ebuild with unsupported URI protocol"
@@ -10,16 +10,16 @@ diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-0.ebuild UriInvalid/UriInvali
  LICENSE="MIT"
  SLOT="0"
 diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-1.ebuild UriInvalid/UriInvalid-1.ebuild
---- UriInvalid.orig/UriInvalid-1.ebuild	2024-12-19 02:08:11.352125422 -0700
-+++ UriInvalid/UriInvalid-1.ebuild	2024-12-19 02:07:52.343008297 -0700
+--- UriInvalid.orig/UriInvalid-1.ebuild	2024-12-19 17:09:16.847941356 -0700
++++ UriInvalid/UriInvalid-1.ebuild	2024-12-19 17:08:23.093806844 -0700
 @@ -5,3 +5,4 @@
  SRC_URI="file"
  LICENSE="MIT"
  SLOT="0"
 +RESTRICT="fetch"
 diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-2.ebuild UriInvalid/UriInvalid-2.ebuild
---- UriInvalid.orig/UriInvalid-2.ebuild	2024-12-19 02:08:11.352125422 -0700
-+++ UriInvalid/UriInvalid-2.ebuild	2024-12-19 02:07:52.344008303 -0700
+--- UriInvalid.orig/UriInvalid-2.ebuild	2024-12-19 17:09:16.847941356 -0700
++++ UriInvalid/UriInvalid-2.ebuild	2024-12-19 17:08:23.097806854 -0700
 @@ -2,6 +2,6 @@
  
  DESCRIPTION="Ebuild with URI target missing"
@@ -29,24 +29,24 @@ diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-2.ebuild UriInvalid/UriInvali
  LICENSE="MIT"
  SLOT="0"
 diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-3.ebuild UriInvalid/UriInvalid-3.ebuild
---- UriInvalid.orig/UriInvalid-3.ebuild	2024-12-19 02:08:11.352125422 -0700
-+++ UriInvalid/UriInvalid-3.ebuild	2024-12-19 02:07:59.892054817 -0700
+--- UriInvalid.orig/UriInvalid-3.ebuild	2024-12-19 17:09:16.847941356 -0700
++++ UriInvalid/UriInvalid-3.ebuild	2024-12-19 17:08:23.097806854 -0700
 @@ -2,6 +2,6 @@
  
- DESCRIPTION="Ebuild with URI mirror missing"
+ DESCRIPTION="Ebuild with URI target missing"
  HOMEPAGE="https://pkgcraft.pkgcraft"
 -SRC_URI="mirror:// mirror://file"
 +SRC_URI="mirror://pkgcraft/file"
  LICENSE="MIT"
  SLOT="0"
 diff -x fix.patch -Naur UriInvalid.orig/UriInvalid-4.ebuild UriInvalid/UriInvalid-4.ebuild
---- UriInvalid.orig/UriInvalid-4.ebuild	2024-12-19 02:08:11.352125422 -0700
-+++ UriInvalid/UriInvalid-4.ebuild	2024-12-19 02:08:08.060105141 -0700
+--- UriInvalid.orig/UriInvalid-4.ebuild	2024-12-19 17:09:16.847941356 -0700
++++ UriInvalid/UriInvalid-4.ebuild	2024-12-19 17:09:03.197907237 -0700
 @@ -2,6 +2,6 @@
  
  DESCRIPTION="Ebuild with URI mirror unknown"
  HOMEPAGE="https://pkgcraft.pkgcraft"
--SRC_URI="mirror://mirror/file"
+-SRC_URI="mirror://mirror/file mirror://file/file"
 +SRC_URI="mirror://pkgcraft/file"
  LICENSE="MIT"
  SLOT="0"
