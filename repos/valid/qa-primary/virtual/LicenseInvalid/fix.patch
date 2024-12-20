@@ -1,0 +1,10 @@
+diff -x fix.patch -Naur LicenseInvalid.orig/LicenseInvalid-0.ebuild LicenseInvalid/LicenseInvalid-0.ebuild
+--- LicenseInvalid.orig/LicenseInvalid-0.ebuild	2024-12-20 09:03:26.013916350 -0700
++++ LicenseInvalid/LicenseInvalid-0.ebuild	2024-12-20 09:03:23.074899851 -0700
+@@ -1,6 +1,5 @@
+ EAPI=8
+ 
+ DESCRIPTION="Virtual ebuild with a license"
+-LICENSE="MIT"
+ SLOT="0"
+ KEYWORDS="amd64"
