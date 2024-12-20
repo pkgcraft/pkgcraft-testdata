@@ -1,19 +1,35 @@
 diff -x fix.patch -Naur qa-primary.orig/CategoryEmpty/PackageEmpty/.empty qa-primary/CategoryEmpty/PackageEmpty/.empty
---- qa-primary.orig/CategoryEmpty/PackageEmpty/.empty	2024-12-19 05:01:40.579386426 -0700
+--- qa-primary.orig/CategoryEmpty/PackageEmpty/.empty	2024-12-19 19:28:36.004205987 -0700
 +++ qa-primary/CategoryEmpty/PackageEmpty/.empty	1969-12-31 17:00:00.000000000 -0700
 @@ -1 +0,0 @@
 -# purposely empty package dir
 diff -x fix.patch -Naur qa-primary.orig/licenses/deprecated qa-primary/licenses/deprecated
---- qa-primary.orig/licenses/deprecated	2024-12-19 05:01:40.579386426 -0700
+--- qa-primary.orig/licenses/deprecated	2024-12-19 19:28:36.004205987 -0700
 +++ qa-primary/licenses/deprecated	1969-12-31 17:00:00.000000000 -0700
 @@ -1 +0,0 @@
 -# deprecated stub license
 diff -x fix.patch -Naur qa-primary.orig/profiles/categories qa-primary/profiles/categories
---- qa-primary.orig/profiles/categories	2024-12-19 05:01:40.579386426 -0700
-+++ qa-primary/profiles/categories	2024-12-19 05:01:30.725312655 -0700
+--- qa-primary.orig/profiles/categories	2024-12-19 19:28:36.004205987 -0700
++++ qa-primary/profiles/categories	2024-12-19 19:28:04.261072554 -0700
 @@ -1,5 +1,4 @@
  Builtins
 -CategoryEmpty
  Dependency
  DependencySlotMissing
  EapiStale
+diff -x fix.patch -Naur qa-primary.orig/profiles/package.deprecated qa-primary/profiles/package.deprecated
+--- qa-primary.orig/profiles/package.deprecated	2024-12-19 19:28:36.005205992 -0700
++++ qa-primary/profiles/package.deprecated	1969-12-31 17:00:00.000000000 -0700
+@@ -1 +0,0 @@
+-stub/deprecated
+diff -x fix.patch -Naur qa-primary.orig/stub/deprecated/deprecated-0.ebuild qa-primary/stub/deprecated/deprecated-0.ebuild
+--- qa-primary.orig/stub/deprecated/deprecated-0.ebuild	2024-12-19 19:28:36.005205992 -0700
++++ qa-primary/stub/deprecated/deprecated-0.ebuild	1969-12-31 17:00:00.000000000 -0700
+@@ -1,7 +0,0 @@
+-EAPI=8
+-
+-DESCRIPTION="Stub ebuild that is deprecated"
+-HOMEPAGE="https://pkgcraft.pkgcraft"
+-LICENSE="MIT"
+-SLOT="0"
+-KEYWORDS="amd64"
