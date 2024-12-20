@@ -1,11 +1,21 @@
 diff -x fix.patch -Naur LicenseInvalid.orig/LicenseInvalid-0.ebuild LicenseInvalid/LicenseInvalid-0.ebuild
---- LicenseInvalid.orig/LicenseInvalid-0.ebuild	2024-12-20 08:24:45.687347222 -0700
-+++ LicenseInvalid/LicenseInvalid-0.ebuild	2024-12-20 08:24:42.422336082 -0700
+--- LicenseInvalid.orig/LicenseInvalid-0.ebuild	2024-12-20 08:44:11.950418862 -0700
++++ LicenseInvalid/LicenseInvalid-0.ebuild	2024-12-20 08:44:00.879351763 -0700
 @@ -2,6 +2,6 @@
  
  DESCRIPTION="Ebuild with nonexistent license"
  HOMEPAGE="https://pkgcraft.pkgcraft"
 -LICENSE="unknown"
++LICENSE="MIT"
+ SLOT="0"
+ KEYWORDS="amd64"
+diff -x fix.patch -Naur LicenseInvalid.orig/LicenseInvalid-1.ebuild LicenseInvalid/LicenseInvalid-1.ebuild
+--- LicenseInvalid.orig/LicenseInvalid-1.ebuild	2024-12-20 08:44:11.950418862 -0700
++++ LicenseInvalid/LicenseInvalid-1.ebuild	2024-12-20 08:44:08.556398284 -0700
+@@ -2,5 +2,6 @@
+ 
+ DESCRIPTION="Ebuild with missing license"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
 +LICENSE="MIT"
  SLOT="0"
  KEYWORDS="amd64"
