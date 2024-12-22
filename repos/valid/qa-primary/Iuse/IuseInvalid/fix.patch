@@ -1,0 +1,9 @@
+diff -x fix.patch -Naur IuseInvalid.orig/IuseInvalid-0.ebuild IuseInvalid/IuseInvalid-0.ebuild
+--- IuseInvalid.orig/IuseInvalid-0.ebuild	2024-12-22 12:14:15.793824802 -0700
++++ IuseInvalid/IuseInvalid-0.ebuild	2024-12-22 12:14:09.067784238 -0700
+@@ -4,4 +4,4 @@
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ LICENSE="MIT"
+ SLOT="0"
+-IUSE="use1 -use2 +cpu_flags_x86_sse2"
++IUSE="use1 use2 cpu_flags_x86_sse2"

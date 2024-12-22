@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<use>
+		<flag name="cpu_flags_x86_sse2">flag</flag>
+		<flag name="use1">flag</flag>
+		<flag name="use2">flag</flag>
+	</use>
+</pkgmetadata>

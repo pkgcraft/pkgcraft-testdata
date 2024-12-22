@@ -1,0 +1,2 @@
+{"kind":"IuseInvalid","scope":{"Version":["Iuse/IuseInvalid-0",null]},"message":"invalid default: +cpu_flags_x86_sse2"}
+{"kind":"IuseInvalid","scope":{"Version":["Iuse/IuseInvalid-0",null]},"message":"invalid default: -use2"}
