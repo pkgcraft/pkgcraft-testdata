@@ -1,0 +1,6 @@
+EAPI=8
+
+DESCRIPTION="ebuild with invalid HOMEPAGE URL"
+HOMEPAGE="pkgcraft"
+LICENSE="MIT"
+SLOT="0"
