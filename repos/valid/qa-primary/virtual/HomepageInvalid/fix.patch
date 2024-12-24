@@ -1,0 +1,10 @@
+diff -x fix.patch -Naur HomepageInvalid.orig/HomepageInvalid-0.ebuild HomepageInvalid/HomepageInvalid-0.ebuild
+--- HomepageInvalid.orig/HomepageInvalid-0.ebuild	2024-12-23 17:45:12.577954073 -0700
++++ HomepageInvalid/HomepageInvalid-0.ebuild	2024-12-23 17:45:05.331757583 -0700
+@@ -1,6 +1,5 @@
+ EAPI=8
+ 
+ DESCRIPTION="Virtual ebuild with a license"
+-HOMEPAGE="https://pkgcraft.pkgcraft"
+ SLOT="0"
+ KEYWORDS="amd64"
