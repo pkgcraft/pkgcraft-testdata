@@ -1,3 +1,3 @@
 {"kind":"ManifestInvalid","scope":{"Package":"Manifest/ManifestInvalid"},"message":"missing: file"}
 {"kind":"ManifestInvalid","scope":{"Package":"Manifest/ManifestInvalid"},"message":"unknown: unknown"}
-{"kind":"ManifestInvalid","scope":{"Package":"Manifest/ManifestInvalid"},"message":"unnecessary: ManifestInvalid-0.ebuild"}
+{"kind":"ManifestInvalid","scope":{"Package":"Manifest/ManifestInvalid"},"message":"unneeded: ManifestInvalid-0.ebuild"}
