@@ -1,0 +1,12 @@
+diff -x fix.patch -Naur Optfeature.orig/Optfeature-0.ebuild Optfeature/Optfeature-0.ebuild
+--- Optfeature.orig/Optfeature-0.ebuild	2024-12-25 09:12:07.612748838 -0700
++++ Optfeature/Optfeature-0.ebuild	2024-12-25 09:12:01.184709641 -0700
+@@ -6,6 +6,6 @@
+ SLOT="0"
+ 
+ pkg_postinstall() {
+-	optfeature "optional support" invalid
+-	optfeature "nonexistent pkg" nonexistent/pkg
++	optfeature "optional support" stub/revisioned
++	optfeature "nonexistent pkg" stub/slotted
+ }
