@@ -1,2 +1,0 @@
-{"kind":"BuiltinCommand","scope":{"Version":["Builtins/BuiltinCommand-0",{"line":9,"column":2}]},"message":"find uses doman"}
-{"kind":"BuiltinCommand","scope":{"Version":["Builtins/BuiltinCommand-0",{"line":13,"column":9}]},"message":"xargs uses doins"}

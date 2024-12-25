@@ -11,12 +11,11 @@ diff -x fix.patch -Naur qa-primary.orig/licenses/deprecated qa-primary/licenses/
 diff -x fix.patch -Naur qa-primary.orig/profiles/categories qa-primary/profiles/categories
 --- qa-primary.orig/profiles/categories	2024-12-19 19:28:36.004205987 -0700
 +++ qa-primary/profiles/categories	2024-12-19 19:28:04.261072554 -0700
-@@ -1,5 +1,4 @@
- Builtins
+@@ -0,4 +0,3 @@
 -CategoryEmpty
+ Commands
  Dependency
  DependencySlotMissing
- EapiStale
 diff -x fix.patch -Naur qa-primary.orig/profiles/package.deprecated qa-primary/profiles/package.deprecated
 --- qa-primary.orig/profiles/package.deprecated	2024-12-19 19:28:36.005205992 -0700
 +++ qa-primary/profiles/package.deprecated	1969-12-31 17:00:00.000000000 -0700
