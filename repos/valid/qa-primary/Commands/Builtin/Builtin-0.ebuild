@@ -1,6 +1,6 @@
 EAPI=8
 
-DESCRIPTION="Ebuild with that uses builtins as an external commands"
+DESCRIPTION="Ebuild that uses builtins as external commands"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
 SLOT="0"
