@@ -1,6 +1,6 @@
-diff -Naur BuiltinCommand.orig/BuiltinCommand-0.ebuild BuiltinCommand/BuiltinCommand-0.ebuild
---- BuiltinCommand.orig/BuiltinCommand-0.ebuild	2024-12-01 13:22:47.662423252 -0700
-+++ BuiltinCommand/BuiltinCommand-0.ebuild	2024-12-01 13:25:09.499438572 -0700
+diff -Naur Builtin.orig/Builtin-0.ebuild Builtin/Builtin-0.ebuild
+--- Builtin.orig/Builtin-0.ebuild	2024-12-01 13:22:47.662423252 -0700
++++ Builtin/Builtin-0.ebuild	2024-12-01 13:25:09.499438572 -0700
 @@ -6,9 +6,13 @@
  SLOT="0"
  
