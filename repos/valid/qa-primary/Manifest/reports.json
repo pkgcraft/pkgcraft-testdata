@@ -1,0 +1,3 @@
+{"kind":"ManifestCollide","scope":{"Package":"Manifest/ManifestCollide"},"message":"collide2: collide1 (Manifest/ManifestCollide)"}
+{"kind":"ManifestCollide","scope":{"Package":"Manifest/ManifestConflict"},"message":"collide4: collide3 (Manifest/ManifestCollide)"}
+{"kind":"ManifestConflict","scope":{"Package":"Manifest/ManifestConflict"},"message":"conflict1: Manifest/ManifestCollide"}
