@@ -3,3 +3,4 @@ test - global test flag
 u1 - global stub flag
 u2 - global stub flag
 u3 - global stub flag
+unused - unused global flag
