@@ -13,13 +13,23 @@ cp -av "${TARGET_DIR}" "${TARGET_DIR}".new >/dev/null
 git checkout "${TARGET_DIR}" &>/dev/null
 mv "${TARGET_DIR}" "${TARGET_DIR}".orig
 mv "${TARGET_DIR}".new "${TARGET_DIR}"
+
 # generate patch file
 FILE=$(mktemp -p .)
 diff -x fix.patch -Naur "${TARGET_DIR}".orig "${TARGET_DIR}" > "${FILE}" || true
+
 mv "${TARGET_DIR}" "${TARGET_DIR}".old
 mv "${TARGET_DIR}".orig "${TARGET_DIR}"
-# move file to expected location
-mv "${FILE}" "${TARGET_DIR}"/fix.patch
-git add "${TARGET_DIR}"/fix.patch
+
+# verify patch with content was created
+if [[ -s ${FILE} ]]; then
+	# move file to expected location
+	mv "${FILE}" "${TARGET_DIR}"/fix.patch
+	git add "${TARGET_DIR}"/fix.patch
+else
+	rm ${FILE}
+	echo no changes detected under current directory
+fi
+
 git clean -fxd >/dev/null
 cd "${TARGET_DIR}"
