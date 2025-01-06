@@ -1,50 +1,56 @@
 diff -x fix.patch -Naur qa-primary.orig/CategoryEmpty/PackageEmpty/.empty qa-primary/CategoryEmpty/PackageEmpty/.empty
---- qa-primary.orig/CategoryEmpty/PackageEmpty/.empty	2025-01-01 15:17:36.644282749 -0700
+--- qa-primary.orig/CategoryEmpty/PackageEmpty/.empty	2025-01-05 22:30:02.116776826 -0700
 +++ qa-primary/CategoryEmpty/PackageEmpty/.empty	1969-12-31 17:00:00.000000000 -0700
 @@ -1 +0,0 @@
 -# purposely empty package dir
 diff -x fix.patch -Naur qa-primary.orig/licenses/deprecated qa-primary/licenses/deprecated
---- qa-primary.orig/licenses/deprecated	2025-01-01 15:17:36.644282749 -0700
+--- qa-primary.orig/licenses/deprecated	2025-01-05 22:30:02.118776837 -0700
 +++ qa-primary/licenses/deprecated	1969-12-31 17:00:00.000000000 -0700
 @@ -1 +0,0 @@
 -# deprecated stub license
 diff -x fix.patch -Naur qa-primary.orig/licenses/unused qa-primary/licenses/unused
---- qa-primary.orig/licenses/unused	2025-01-01 15:17:36.644282749 -0700
+--- qa-primary.orig/licenses/unused	2025-01-05 22:30:02.118776837 -0700
 +++ qa-primary/licenses/unused	1969-12-31 17:00:00.000000000 -0700
 @@ -1 +0,0 @@
 -# unused stub license
 diff -x fix.patch -Naur qa-primary.orig/profiles/arch.list qa-primary/profiles/arch.list
---- qa-primary.orig/profiles/arch.list	2025-01-01 15:17:36.644282749 -0700
-+++ qa-primary/profiles/arch.list	2025-01-01 15:17:32.631261581 -0700
+--- qa-primary.orig/profiles/arch.list	2025-01-05 22:30:02.119776842 -0700
++++ qa-primary/profiles/arch.list	2025-01-05 22:29:53.847731122 -0700
 @@ -1,4 +1,3 @@
  amd64
  arm64
  x86
 -x86-linux
 diff -x fix.patch -Naur qa-primary.orig/profiles/categories qa-primary/profiles/categories
---- qa-primary.orig/profiles/categories	2025-01-01 15:17:36.644282749 -0700
-+++ qa-primary/profiles/categories	2025-01-01 15:17:25.812225663 -0700
+--- qa-primary.orig/profiles/categories	2025-01-05 22:30:02.119776842 -0700
++++ qa-primary/profiles/categories	2025-01-05 22:29:59.413761891 -0700
 @@ -1,4 +1,3 @@
 -CategoryEmpty
  Commands
  Dependency
  DependencySlotMissing
+@@ -22,5 +21,4 @@
+ VariableOrder
+ Whitespace
+ stub
+-unused
+ virtual
 diff -x fix.patch -Naur qa-primary.orig/profiles/package.deprecated qa-primary/profiles/package.deprecated
---- qa-primary.orig/profiles/package.deprecated	2025-01-01 15:17:36.644282749 -0700
+--- qa-primary.orig/profiles/package.deprecated	2025-01-05 22:30:02.119776842 -0700
 +++ qa-primary/profiles/package.deprecated	1969-12-31 17:00:00.000000000 -0700
 @@ -1,2 +0,0 @@
 -stub/deprecated
 -nonexistent/pkg
 diff -x fix.patch -Naur qa-primary.orig/profiles/use.desc qa-primary/profiles/use.desc
---- qa-primary.orig/profiles/use.desc	2025-01-01 15:17:36.644282749 -0700
-+++ qa-primary/profiles/use.desc	2025-01-01 15:17:25.812225663 -0700
+--- qa-primary.orig/profiles/use.desc	2025-01-05 22:30:02.119776842 -0700
++++ qa-primary/profiles/use.desc	2025-01-05 22:29:53.851731145 -0700
 @@ -3,4 +3,3 @@
  u1 - global stub flag
  u2 - global stub flag
  u3 - global stub flag
 -unused - unused global flag
 diff -x fix.patch -Naur qa-primary.orig/stub/deprecated/deprecated-0.ebuild qa-primary/stub/deprecated/deprecated-0.ebuild
---- qa-primary.orig/stub/deprecated/deprecated-0.ebuild	2025-01-01 15:17:36.645282755 -0700
+--- qa-primary.orig/stub/deprecated/deprecated-0.ebuild	2025-01-05 22:30:02.120776848 -0700
 +++ qa-primary/stub/deprecated/deprecated-0.ebuild	1969-12-31 17:00:00.000000000 -0700
 @@ -1,7 +0,0 @@
 -EAPI=8

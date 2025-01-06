@@ -22,4 +22,5 @@ UseLocal
 VariableOrder
 Whitespace
 stub
+unused
 virtual
