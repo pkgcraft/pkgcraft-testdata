@@ -1,3 +1,2 @@
-{"kind":"ManifestCollide","scope":{"Repo":"qa-primary"},"message":"(Manifest/ManifestCollide: collide1, collide2)"}
 {"kind":"ManifestCollide","scope":{"Repo":"qa-primary"},"message":"(Manifest/ManifestCollide: collide3), (Manifest/ManifestConflict: collide4)"}
 {"kind":"ManifestConflict","scope":{"Repo":"qa-primary"},"message":"conflict1: Manifest/ManifestCollide, Manifest/ManifestConflict"}
