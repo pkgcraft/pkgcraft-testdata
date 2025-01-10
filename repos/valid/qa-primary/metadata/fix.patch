@@ -1,0 +1,14 @@
+diff -x fix.patch -Naur metadata.orig/layout.conf metadata/layout.conf
+--- metadata.orig/layout.conf	2025-01-09 23:50:03.015986738 -0700
++++ metadata/layout.conf	2025-01-09 23:50:01.375979536 -0700
+@@ -1,8 +1,8 @@
+ masters =
+ cache-formats = md5-dict
+ thin-manifests = true
+-eapis-banned = 0 1 2 3 4 5
+-eapis-deprecated = 6
++eapis-banned = 0 1 2 3 4 5 6
++eapis-deprecated =
+ eapis-testing = pkgcraft
+ properties-allowed = live property1
+ restrict-allowed = fetch test restrict1
