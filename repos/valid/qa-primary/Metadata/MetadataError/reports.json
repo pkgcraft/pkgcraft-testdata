@@ -1,0 +1,2 @@
+{"scope":{"Version":["Metadata/MetadataError-0",null]},"kind":"MetadataError","message":"line 3: cd: restricted"}
+{"scope":{"Version":["Metadata/MetadataError-1",null]},"kind":"MetadataError","message":"line 3: https://pkgcraft.pkgcraft: restricted: cannot specify `/' in command names"}

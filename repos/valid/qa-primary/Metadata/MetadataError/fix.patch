@@ -1,0 +1,20 @@
+diff -x fix.patch -Naur MetadataError.orig/MetadataError-0.ebuild MetadataError/MetadataError-0.ebuild
+--- MetadataError.orig/MetadataError-0.ebuild	2025-01-18 20:23:10.847868521 -0700
++++ MetadataError/MetadataError-0.ebuild	2025-01-18 20:22:58.467733225 -0700
+@@ -1,6 +1,5 @@
+ EAPI=8
+ 
+-cd dir
+ DESCRIPTION="Restricted builtin used in global scope"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ LICENSE="MIT"
+diff -x fix.patch -Naur MetadataError.orig/MetadataError-1.ebuild MetadataError/MetadataError-1.ebuild
+--- MetadataError.orig/MetadataError-1.ebuild	2025-01-18 20:23:10.847868521 -0700
++++ MetadataError/MetadataError-1.ebuild	2025-01-18 20:23:02.805780638 -0700
+@@ -1,6 +1,5 @@
+ EAPI=8
+ 
+-https://pkgcraft.pkgcraft
+ DESCRIPTION="Invalid data in global scope"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ LICENSE="MIT"
