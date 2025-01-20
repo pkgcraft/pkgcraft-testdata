@@ -1,6 +1,8 @@
-{"scope":{"Version":["Metadata/MetadataError-0",null]},"kind":"MetadataError","message":"line 3: cd: restricted"}
+{"scope":{"Version":["Metadata/MetadataError-0",null]},"kind":"MetadataError","message":"line 3: unknown command: cd"}
 {"scope":{"Version":["Metadata/MetadataError-0-r1",null]},"kind":"MetadataError","message":"line 3: unknown command: history"}
 {"scope":{"Version":["Metadata/MetadataError-0-r2",null]},"kind":"MetadataError","message":"line 3: unknown command: enable"}
+{"scope":{"Version":["Metadata/MetadataError-0-r3",null]},"kind":"MetadataError","message":"line 4: unknown command: source"}
+{"scope":{"Version":["Metadata/MetadataError-0-r4",null]},"kind":"MetadataError","message":"line 4: unknown command: ."}
 {"scope":{"Version":["Metadata/MetadataError-1",null]},"kind":"MetadataError","message":"line 3: https://pkgcraft.pkgcraft: restricted: cannot specify `/' in command names"}
 {"scope":{"Version":["Metadata/MetadataError-2",null]},"kind":"MetadataError","message":"line 3: /path/to/command: restricted: cannot specify `/' in command names"}
 {"scope":{"Version":["Metadata/MetadataError-3",null]},"kind":"MetadataError","message":"line 7: unexpected EOF while looking for matching `\"'"}

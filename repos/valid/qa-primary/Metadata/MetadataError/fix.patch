@@ -1,72 +1,94 @@
 diff -x fix.patch -Naur MetadataError.orig/MetadataError-0.ebuild MetadataError/MetadataError-0.ebuild
---- MetadataError.orig/MetadataError-0.ebuild	2025-01-19 20:20:07.122361886 -0700
-+++ MetadataError/MetadataError-0.ebuild	2025-01-19 20:19:43.651087285 -0700
+--- MetadataError.orig/MetadataError-0.ebuild	2025-01-19 21:41:08.764655511 -0700
++++ MetadataError/MetadataError-0.ebuild	2025-01-19 21:40:28.759293692 -0700
 @@ -1,6 +1,5 @@
  EAPI=8
  
 -cd dir
- DESCRIPTION="Restricted builtin"
+ DESCRIPTION="restricted builtin"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  LICENSE="MIT"
 diff -x fix.patch -Naur MetadataError.orig/MetadataError-0-r1.ebuild MetadataError/MetadataError-0-r1.ebuild
---- MetadataError.orig/MetadataError-0-r1.ebuild	2025-01-19 20:20:07.102361652 -0700
-+++ MetadataError/MetadataError-0-r1.ebuild	2025-01-19 20:19:50.289164976 -0700
+--- MetadataError.orig/MetadataError-0-r1.ebuild	2025-01-19 21:41:08.742655313 -0700
++++ MetadataError/MetadataError-0-r1.ebuild	2025-01-19 21:40:32.855331036 -0700
 @@ -1,6 +1,5 @@
  EAPI=8
  
 -history
- DESCRIPTION="Unsupported builtin (compiled out)"
+ DESCRIPTION="unsupported builtin (compiled out)"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  LICENSE="MIT"
 diff -x fix.patch -Naur MetadataError.orig/MetadataError-0-r2.ebuild MetadataError/MetadataError-0-r2.ebuild
---- MetadataError.orig/MetadataError-0-r2.ebuild	2025-01-19 20:20:07.102361652 -0700
-+++ MetadataError/MetadataError-0-r2.ebuild	2025-01-19 20:19:53.228199367 -0700
+--- MetadataError.orig/MetadataError-0-r2.ebuild	2025-01-19 21:41:08.763655502 -0700
++++ MetadataError/MetadataError-0-r2.ebuild	2025-01-19 21:40:36.386363173 -0700
 @@ -1,6 +1,5 @@
  EAPI=8
  
 -enable
- DESCRIPTION="Unsupported builtin (explicitly disabled)"
+ DESCRIPTION="unsupported builtin (explicitly disabled)"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ LICENSE="MIT"
+diff -x fix.patch -Naur MetadataError.orig/MetadataError-0-r3.ebuild MetadataError/MetadataError-0-r3.ebuild
+--- MetadataError.orig/MetadataError-0-r3.ebuild	2025-01-19 21:41:08.763655502 -0700
++++ MetadataError/MetadataError-0-r3.ebuild	2025-01-19 21:40:42.163415642 -0700
+@@ -1,7 +1,5 @@
+ EAPI=8
+ 
+-# recursively source ebuild
+-source ${BASH_SOURCE}
+ DESCRIPTION="unsupported builtin (explicitly disabled)"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ LICENSE="MIT"
+diff -x fix.patch -Naur MetadataError.orig/MetadataError-0-r4.ebuild MetadataError/MetadataError-0-r4.ebuild
+--- MetadataError.orig/MetadataError-0-r4.ebuild	2025-01-19 21:41:08.764655511 -0700
++++ MetadataError/MetadataError-0-r4.ebuild	2025-01-19 21:40:45.290443986 -0700
+@@ -1,7 +1,5 @@
+ EAPI=8
+ 
+-# source another ebuild
+-. MetadataError-0.ebuild
+ DESCRIPTION="unsupported builtin (explicitly disabled)"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  LICENSE="MIT"
 diff -x fix.patch -Naur MetadataError.orig/MetadataError-1.ebuild MetadataError/MetadataError-1.ebuild
---- MetadataError.orig/MetadataError-1.ebuild	2025-01-19 20:20:07.122361886 -0700
-+++ MetadataError/MetadataError-1.ebuild	2025-01-19 20:19:43.652087296 -0700
+--- MetadataError.orig/MetadataError-1.ebuild	2025-01-19 21:41:08.764655511 -0700
++++ MetadataError/MetadataError-1.ebuild	2025-01-19 21:40:49.563482652 -0700
 @@ -1,6 +1,5 @@
  EAPI=8
  
 -https://pkgcraft.pkgcraft
- DESCRIPTION="Invalid data"
+ DESCRIPTION="invalid data"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  LICENSE="MIT"
 diff -x fix.patch -Naur MetadataError.orig/MetadataError-2.ebuild MetadataError/MetadataError-2.ebuild
---- MetadataError.orig/MetadataError-2.ebuild	2025-01-19 20:20:07.122361886 -0700
-+++ MetadataError/MetadataError-2.ebuild	2025-01-19 20:19:43.652087296 -0700
+--- MetadataError.orig/MetadataError-2.ebuild	2025-01-19 21:41:08.764655511 -0700
++++ MetadataError/MetadataError-2.ebuild	2025-01-19 21:40:52.296507346 -0700
 @@ -1,6 +1,5 @@
  EAPI=8
  
 -/path/to/command
- DESCRIPTION="Absolute command path"
+ DESCRIPTION="absolute command path"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  LICENSE="MIT"
 diff -x fix.patch -Naur MetadataError.orig/MetadataError-3.ebuild MetadataError/MetadataError-3.ebuild
---- MetadataError.orig/MetadataError-3.ebuild	2025-01-19 20:20:07.123361897 -0700
-+++ MetadataError/MetadataError-3.ebuild	2025-01-19 20:19:43.653087308 -0700
+--- MetadataError.orig/MetadataError-3.ebuild	2025-01-19 21:41:08.765655520 -0700
++++ MetadataError/MetadataError-3.ebuild	2025-01-19 21:40:56.870548605 -0700
 @@ -1,6 +1,6 @@
  EAPI=8
  
 -VAR="string missing end quote
 +VAR="string missing end quote"
- DESCRIPTION="Invalid syntax"
+ DESCRIPTION="invalid syntax"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  LICENSE="MIT"
 diff -x fix.patch -Naur MetadataError.orig/MetadataError-4.ebuild MetadataError/MetadataError-4.ebuild
---- MetadataError.orig/MetadataError-4.ebuild	2025-01-19 20:20:07.123361897 -0700
-+++ MetadataError/MetadataError-4.ebuild	2025-01-19 20:19:43.653087308 -0700
+--- MetadataError.orig/MetadataError-4.ebuild	2025-01-19 21:41:08.765655520 -0700
++++ MetadataError/MetadataError-4.ebuild	2025-01-19 21:41:04.090613567 -0700
 @@ -1,7 +1,6 @@
  EAPI=8
  
  echo > /dev/null
 -echo > test
- DESCRIPTION="Redirection disallowed (except to /dev/null)"
+ DESCRIPTION="redirection disallowed (except to /dev/null)"
  HOMEPAGE="https://pkgcraft.pkgcraft"
  LICENSE="MIT"

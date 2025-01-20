@@ -1,6 +1,7 @@
 EAPI=8
 
-enable
+# recursively source ebuild
+source ${BASH_SOURCE}
 DESCRIPTION="unsupported builtin (explicitly disabled)"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"

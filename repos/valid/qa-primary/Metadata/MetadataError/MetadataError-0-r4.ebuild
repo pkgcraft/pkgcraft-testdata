@@ -1,6 +1,7 @@
 EAPI=8
 
-enable
+# source another ebuild
+. MetadataError-0.ebuild
 DESCRIPTION="unsupported builtin (explicitly disabled)"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
