@@ -1,7 +1,7 @@
 EAPI=8
 
-cd dir
-DESCRIPTION="Restricted builtin"
+enable
+DESCRIPTION="Unsupported builtin (explicitly disabled)"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
 SLOT="0"

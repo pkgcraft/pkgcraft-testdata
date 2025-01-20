@@ -1,7 +1,7 @@
 EAPI=8
 
-cd dir
-DESCRIPTION="Restricted builtin"
+VAR="string missing end quote
+DESCRIPTION="Invalid syntax"
 HOMEPAGE="https://pkgcraft.pkgcraft"
 LICENSE="MIT"
 SLOT="0"
