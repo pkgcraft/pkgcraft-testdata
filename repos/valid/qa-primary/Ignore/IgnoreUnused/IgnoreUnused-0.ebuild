@@ -1,4 +1,4 @@
-# pkgcruft-ignore: @Header, MetadataError
+# pkgcruft-ignore: @Header, MetadataError, Invalid
 
 EAPI=8
 
