@@ -1,4 +1,5 @@
-{"kind":"WhitespaceUnneeded","scope":{"Version":["Whitespace/WhitespaceUnneeded-0",{"line":3,"column":0}]},"message":"empty line"}
-{"kind":"WhitespaceUnneeded","scope":{"Version":["Whitespace/WhitespaceUnneeded-0",{"line":5,"column":37}]},"message":"trailing whitespace"}
-{"kind":"WhitespaceUnneeded","scope":{"Version":["Whitespace/WhitespaceUnneeded-0",{"line":6,"column":14}]},"message":"trailing whitespace"}
-{"kind":"WhitespaceUnneeded","scope":{"Version":["Whitespace/WhitespaceUnneeded-0",{"line":9,"column":0}]},"message":"empty line with whitespace"}
+{"scope":{"Version":["Whitespace/WhitespaceUnneeded-0",{"line":3,"column":0}]},"kind":"WhitespaceUnneeded","message":"empty line"}
+{"scope":{"Version":["Whitespace/WhitespaceUnneeded-0",{"line":5,"column":37}]},"kind":"WhitespaceUnneeded","message":"trailing whitespace"}
+{"scope":{"Version":["Whitespace/WhitespaceUnneeded-0",{"line":6,"column":14}]},"kind":"WhitespaceUnneeded","message":"trailing whitespace"}
+{"scope":{"Version":["Whitespace/WhitespaceUnneeded-0",{"line":9,"column":0}]},"kind":"WhitespaceUnneeded","message":"empty line with whitespace"}
+{"scope":{"Version":["Whitespace/WhitespaceUnneeded-0",{"line":12,"column":0}]},"kind":"WhitespaceUnneeded","message":"leading whitespace"}
