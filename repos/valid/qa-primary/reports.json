@@ -1,3 +1,2 @@
-{"kind":"RepoPackageEmpty","scope":{"Package":"CategoryEmpty/PackageEmpty"},"message":null}
 {"kind":"RepoCategoryEmpty","scope":{"Category":"CategoryEmpty"},"message":null}
 {"kind":"RepoCategoriesUnused","scope":{"Repo":"qa-primary"},"message":"unused"}
