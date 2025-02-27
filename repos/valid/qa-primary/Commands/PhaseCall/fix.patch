@@ -1,0 +1,10 @@
+diff -x fix.patch -Naur PhaseCall.orig/PhaseCall-0.ebuild PhaseCall/PhaseCall-0.ebuild
+--- PhaseCall.orig/PhaseCall-0.ebuild	2025-02-26 17:03:14.020892084 -0700
++++ PhaseCall/PhaseCall-0.ebuild	2025-02-26 17:03:08.419865689 -0700
+@@ -6,6 +6,5 @@
+ SLOT="0"
+ 
+ src_install() {
+-	src_configure
+ 	dobin program
+ }
