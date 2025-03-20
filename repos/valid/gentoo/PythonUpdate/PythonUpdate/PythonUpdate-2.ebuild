@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_8 )
+PYTHON_COMPAT=( python3_8 python3_13t )
 inherit python-any-r1
 
 DESCRIPTION="Ebuild with potential python updates"
