@@ -1,0 +1,2 @@
+{"scope":{"Version":["Commands/CommandDieUnneeded-0",{"line":9,"column":2}]},"kind":"CommandDieUnneeded","message":"econf"}
+{"scope":{"Version":["Commands/CommandDieUnneeded-0",{"line":13,"column":2}]},"kind":"CommandDieUnneeded","message":"emake"}

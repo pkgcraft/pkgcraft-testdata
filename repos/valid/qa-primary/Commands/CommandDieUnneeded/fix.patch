@@ -1,0 +1,15 @@
+diff -x fix.patch -Naur CommandDieUnneeded.orig/CommandDieUnneeded-0.ebuild CommandDieUnneeded/CommandDieUnneeded-0.ebuild
+--- CommandDieUnneeded.orig/CommandDieUnneeded-0.ebuild	2025-03-29 17:26:43.087565978 -0600
++++ CommandDieUnneeded/CommandDieUnneeded-0.ebuild	2025-03-29 17:26:35.595499522 -0600
+@@ -6,9 +6,9 @@
+ SLOT="0"
+ 
+ src_configure() {
+-	econf --foo || die
++	econf --foo
+ }
+ 
+ src_compile() {
+-	emake foo || die
++	emake foo
+ }
