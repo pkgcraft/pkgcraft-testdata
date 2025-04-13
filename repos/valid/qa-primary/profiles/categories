@@ -22,6 +22,7 @@ SrcUri
 UnstableOnly
 UseLocal
 VariableOrder
+Variables
 Whitespace
 stub
 unused

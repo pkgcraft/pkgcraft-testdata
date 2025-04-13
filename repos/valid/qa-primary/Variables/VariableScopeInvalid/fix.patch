@@ -1,0 +1,14 @@
+diff -x fix.patch -Naur VariableScopeInvalid.orig/VariableScopeInvalid-0.ebuild VariableScopeInvalid/VariableScopeInvalid-0.ebuild
+--- VariableScopeInvalid.orig/VariableScopeInvalid-0.ebuild	2025-04-13 04:30:35.628331173 -0600
++++ VariableScopeInvalid/VariableScopeInvalid-0.ebuild	2025-04-13 04:30:24.245256953 -0600
+@@ -5,8 +5,8 @@
+ LICENSE="MIT"
+ SLOT="0"
+ 
+-VAR1="${EROOT}/usr/share/doc/${PF}/file"
++VAR1="/usr/share/doc/${PF}/file"
+ 
+ src_compile() {
+-	emake INSTALL_PATH="${ED}"/usr
++	emake INSTALL_PATH=/usr
+ }
