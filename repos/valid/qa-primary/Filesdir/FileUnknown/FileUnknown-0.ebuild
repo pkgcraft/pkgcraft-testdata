@@ -11,6 +11,10 @@ PATCHES=(
 	"${FILESDIR}"/nonexistent.patch
 )
 
+# invalid references in strings are flagged
+FILE1="${FILESDIR}/nonexistent"
+FILE2="${FILESDIR}/existent"
+
 src_prepare() {
 	default
 	local f="file"
@@ -19,4 +23,9 @@ src_prepare() {
 	eapply "${FILESDIR}"/${f}.patch
 	# global variables using parameter expansion currently aren't supported
 	eapply "${FILESDIR}"/${GLOBAL_VAR}.patch
+}
+
+src_install() {
+	default
+	doins "${FILE1}" "${FILE2}"
 }

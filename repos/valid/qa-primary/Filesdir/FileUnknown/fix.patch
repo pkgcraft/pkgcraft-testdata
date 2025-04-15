@@ -1,11 +1,22 @@
 diff -x fix.patch -Naur FileUnknown.orig/FileUnknown-0.ebuild FileUnknown/FileUnknown-0.ebuild
---- FileUnknown.orig/FileUnknown-0.ebuild	2025-01-20 22:45:38.928689146 -0700
-+++ FileUnknown/FileUnknown-0.ebuild	2025-01-20 22:45:35.578643259 -0700
-@@ -8,7 +8,6 @@
+--- FileUnknown.orig/FileUnknown-0.ebuild	2025-04-15 16:51:47.813113050 -0600
++++ FileUnknown/FileUnknown-0.ebuild	2025-04-15 16:51:21.595974462 -0600
+@@ -8,11 +8,9 @@
  
  PATCHES=(
  	"${FILESDIR}"/existent.patch
 -	"${FILESDIR}"/nonexistent.patch
  )
  
+ # invalid references in strings are flagged
+-FILE1="${FILESDIR}/nonexistent"
+ FILE2="${FILESDIR}/existent"
+ 
  src_prepare() {
+@@ -27,5 +25,5 @@
+ 
+ src_install() {
+ 	default
+-	doins "${FILE1}" "${FILE2}"
++	doins "${FILE2}"
+ }
