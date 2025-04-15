@@ -12,8 +12,8 @@ PATCHES=(
 )
 
 # invalid references in strings are flagged
-FILE1="${FILESDIR}/nonexistent"
-FILE2="${FILESDIR}/existent"
+FILE1="file1:${FILESDIR}/nonexistent"
+FILE2="file2:${FILESDIR}/existent"
 
 src_prepare() {
 	default
@@ -25,7 +25,6 @@ src_prepare() {
 	eapply "${FILESDIR}"/${GLOBAL_VAR}.patch
 }
 
-src_install() {
-	default
-	doins "${FILE1}" "${FILE2}"
+src_configure() {
+	econf --file1="${FILE1}" --file2="${FILE2}"
 }
