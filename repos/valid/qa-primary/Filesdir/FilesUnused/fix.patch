@@ -1,5 +1,10 @@
-diff -x fix.patch -Naur FilesUnused.orig/files/existent.patch FilesUnused/files/existent.patch
---- FilesUnused.orig/files/existent.patch	2024-12-08 13:21:11.952866837 -0700
-+++ FilesUnused/files/existent.patch	1969-12-31 17:00:00.000000000 -0700
+diff -x fix.patch -Naur FilesUnused.orig/files/unused1 FilesUnused/files/unused1
+--- FilesUnused.orig/files/unused1	2025-04-24 00:14:04.032047891 -0600
++++ FilesUnused/files/unused1	1969-12-31 17:00:00.000000000 -0700
+@@ -1 +0,0 @@
+-# stub file
+diff -x fix.patch -Naur FilesUnused.orig/files/unused2 FilesUnused/files/unused2
+--- FilesUnused.orig/files/unused2	2025-04-24 00:14:04.032047891 -0600
++++ FilesUnused/files/unused2	1969-12-31 17:00:00.000000000 -0700
 @@ -1 +0,0 @@
 -# stub file
