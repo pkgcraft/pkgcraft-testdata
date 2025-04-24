@@ -1,23 +1,3 @@
-diff -x fix.patch -Naur qa-primary.orig/CategoryEmpty/PackageEmpty/.empty qa-primary/CategoryEmpty/PackageEmpty/.empty
---- qa-primary.orig/CategoryEmpty/PackageEmpty/.empty	2025-04-13 04:32:35.613044305 -0600
-+++ qa-primary/CategoryEmpty/PackageEmpty/.empty	1969-12-31 17:00:00.000000000 -0700
-@@ -1 +0,0 @@
--# purposely empty package dir
-diff -x fix.patch -Naur qa-primary.orig/eclass/unused.eclass qa-primary/eclass/unused.eclass
---- qa-primary.orig/eclass/unused.eclass	2025-04-13 04:32:35.614044310 -0600
-+++ qa-primary/eclass/unused.eclass	1969-12-31 17:00:00.000000000 -0700
-@@ -1 +0,0 @@
--# unused stub eclass
-diff -x fix.patch -Naur qa-primary.orig/licenses/deprecated qa-primary/licenses/deprecated
---- qa-primary.orig/licenses/deprecated	2025-04-13 04:32:35.614044310 -0600
-+++ qa-primary/licenses/deprecated	1969-12-31 17:00:00.000000000 -0700
-@@ -1 +0,0 @@
--# deprecated stub license
-diff -x fix.patch -Naur qa-primary.orig/licenses/unused qa-primary/licenses/unused
---- qa-primary.orig/licenses/unused	2025-04-13 04:32:35.614044310 -0600
-+++ qa-primary/licenses/unused	1969-12-31 17:00:00.000000000 -0700
-@@ -1 +0,0 @@
--# unused stub license
 diff -x fix.patch -Naur qa-primary.orig/profiles/arch.list qa-primary/profiles/arch.list
 --- qa-primary.orig/profiles/arch.list	2025-04-13 04:32:35.614044310 -0600
 +++ qa-primary/profiles/arch.list	2025-04-13 04:32:28.662005921 -0600
@@ -40,12 +20,6 @@ diff -x fix.patch -Naur qa-primary.orig/profiles/categories qa-primary/profiles/
  stub
 -unused
  virtual
-diff -x fix.patch -Naur qa-primary.orig/profiles/package.deprecated qa-primary/profiles/package.deprecated
---- qa-primary.orig/profiles/package.deprecated	2025-04-13 04:32:35.614044310 -0600
-+++ qa-primary/profiles/package.deprecated	1969-12-31 17:00:00.000000000 -0700
-@@ -1,2 +0,0 @@
--stub/deprecated
--nonexistent/pkg
 diff -x fix.patch -Naur qa-primary.orig/profiles/thirdpartymirrors qa-primary/profiles/thirdpartymirrors
 --- qa-primary.orig/profiles/thirdpartymirrors	2025-04-13 04:32:35.614044310 -0600
 +++ qa-primary/profiles/thirdpartymirrors	2025-04-13 04:32:28.662005921 -0600
@@ -60,14 +34,3 @@ diff -x fix.patch -Naur qa-primary.orig/profiles/use.desc qa-primary/profiles/us
  u2 - global stub flag
  u3 - global stub flag
 -unused - unused global flag
-diff -x fix.patch -Naur qa-primary.orig/stub/deprecated/deprecated-0.ebuild qa-primary/stub/deprecated/deprecated-0.ebuild
---- qa-primary.orig/stub/deprecated/deprecated-0.ebuild	2025-04-13 04:32:35.614044310 -0600
-+++ qa-primary/stub/deprecated/deprecated-0.ebuild	1969-12-31 17:00:00.000000000 -0700
-@@ -1,7 +0,0 @@
--EAPI=8
--
--DESCRIPTION="Stub ebuild that is deprecated"
--HOMEPAGE="https://pkgcraft.pkgcraft"
--LICENSE="MIT"
--SLOT="0"
--KEYWORDS="amd64"
