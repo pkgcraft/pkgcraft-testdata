@@ -7,3 +7,4 @@
 {"scope":{"Version":["Metadata/MetadataError-2",null]},"kind":"MetadataError","message":"line 3: /path/to/command: restricted: cannot specify `/' in command names"}
 {"scope":{"Version":["Metadata/MetadataError-3",null]},"kind":"MetadataError","message":"line 7: unexpected EOF while looking for matching `\"'"}
 {"scope":{"Version":["Metadata/MetadataError-4",null]},"kind":"MetadataError","message":"line 4: test: restricted: cannot redirect output"}
+{"scope":{"Version":["Metadata/MetadataError-5",null]},"kind":"MetadataError","message":"line 8: no match: nonexistent-glob-fail*"}
