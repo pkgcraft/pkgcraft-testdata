@@ -1,3 +1,5 @@
-{"kind":"ManifestInvalid","scope":{"Package":"Manifest/ManifestInvalid"},"message":"missing: file"}
-{"kind":"ManifestInvalid","scope":{"Package":"Manifest/ManifestInvalid"},"message":"unknown: unknown"}
-{"kind":"ManifestInvalid","scope":{"Package":"Manifest/ManifestInvalid"},"message":"unneeded: ManifestInvalid-0.ebuild"}
+{"scope":{"Package":"Manifest/ManifestInvalid"},"kind":"ManifestInvalid","message":"missing-blake2b.tar.xz: missing hashes: BLAKE2B"}
+{"scope":{"Package":"Manifest/ManifestInvalid"},"kind":"ManifestInvalid","message":"missing-sha512.tar.xz: missing hashes: SHA512"}
+{"scope":{"Package":"Manifest/ManifestInvalid"},"kind":"ManifestInvalid","message":"missing: missing.tar.gz"}
+{"scope":{"Package":"Manifest/ManifestInvalid"},"kind":"ManifestInvalid","message":"unknown: unknown"}
+{"scope":{"Package":"Manifest/ManifestInvalid"},"kind":"ManifestInvalid","message":"unneeded: ManifestInvalid-0.ebuild"}
