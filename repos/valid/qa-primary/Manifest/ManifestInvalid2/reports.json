@@ -1,1 +1,1 @@
-{"kind":"ManifestInvalid","scope":{"Package":"Manifest/ManifestInvalid2"},"message":"failed parsing: line 1: invalid number of manifest tokens"}
+{"scope":{"Package":"Manifest/ManifestInvalid2"},"kind":"ManifestInvalid","message":"file: missing hashes: BLAKE2B, SHA512"}
