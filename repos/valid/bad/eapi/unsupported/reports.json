@@ -1,3 +1,3 @@
-{"kind":"MetadataError","scope":{"Version":["eapi/unsupported-0",null]},"message":"unsupported EAPI: 0"}
-{"kind":"MetadataError","scope":{"Version":["eapi/unsupported-1",null]},"message":"unsupported EAPI: 1"}
-{"kind":"MetadataError","scope":{"Version":["eapi/unsupported-9999",null]},"message":"unsupported EAPI: 9999"}
+{"kind":"MetadataError","target":{"Version":["eapi/unsupported-0",null]},"message":"unsupported EAPI: 0"}
+{"kind":"MetadataError","target":{"Version":["eapi/unsupported-1",null]},"message":"unsupported EAPI: 1"}
+{"kind":"MetadataError","target":{"Version":["eapi/unsupported-9999",null]},"message":"unsupported EAPI: 9999"}

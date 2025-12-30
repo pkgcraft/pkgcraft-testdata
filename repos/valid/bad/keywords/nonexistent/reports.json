@@ -1,1 +1,1 @@
-{"kind":"MetadataError","scope":{"Version":["keywords/nonexistent-8",null]},"message":"nonexistent arch: arm64"}
+{"kind":"MetadataError","target":{"Version":["keywords/nonexistent-8",null]},"message":"nonexistent arch: arm64"}

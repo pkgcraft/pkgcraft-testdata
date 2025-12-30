@@ -1,2 +1,2 @@
-{"scope":{"Version":["Variables/VariableScopeInvalid-0",{"line":8,"column":7}]},"kind":"VariableScopeInvalid","message":"EROOT: disabled in global scope"}
-{"scope":{"Version":["Variables/VariableScopeInvalid-0",{"line":11,"column":22}]},"kind":"VariableScopeInvalid","message":"ED: disabled in src_compile scope"}
+{"target":{"Version":["Variables/VariableScopeInvalid-0",{"line":8,"column":7}]},"kind":"VariableScopeInvalid","message":"EROOT: disabled in global scope"}
+{"target":{"Version":["Variables/VariableScopeInvalid-0",{"line":11,"column":22}]},"kind":"VariableScopeInvalid","message":"ED: disabled in src_compile scope"}

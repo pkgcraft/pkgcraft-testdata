@@ -1,4 +1,4 @@
-{"scope":{"Version":["Ignore/IgnoreUnused-0",null]},"kind":"IgnoreUnused","message":"MetadataError"}
-{"scope":{"Package":"Ignore/IgnoreUnused"},"kind":"IgnoreUnused","message":"@Manifest"}
-{"scope":{"Category":"Ignore"},"kind":"IgnoreUnused","message":"@Commands"}
-{"scope":{"Repo":"qa-primary"},"kind":"IgnoreUnused","message":"PackageOverride"}
+{"target":{"Version":["Ignore/IgnoreUnused-0",null]},"kind":"IgnoreUnused","message":"MetadataError"}
+{"target":{"Package":"Ignore/IgnoreUnused"},"kind":"IgnoreUnused","message":"@Manifest"}
+{"target":{"Category":"Ignore"},"kind":"IgnoreUnused","message":"@Commands"}
+{"target":{"Repo":"qa-primary"},"kind":"IgnoreUnused","message":"PackageOverride"}

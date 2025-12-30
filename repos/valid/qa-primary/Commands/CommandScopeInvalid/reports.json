@@ -1,1 +1,1 @@
-{"scope":{"Version":["Commands/CommandScopeInvalid-0",{"line":10,"column":2}]},"kind":"CommandScopeInvalid","message":"dobin: disabled in src_compile scope"}
+{"target":{"Version":["Commands/CommandScopeInvalid-0",{"line":10,"column":2}]},"kind":"CommandScopeInvalid","message":"dobin: disabled in src_compile scope"}

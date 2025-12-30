@@ -1,2 +1,2 @@
-{"kind":"RepoCategoryEmpty","scope":{"Category":"CategoryEmpty"},"message":null}
-{"kind":"RepoCategoriesUnused","scope":{"Repo":"qa-primary"},"message":"unused"}
+{"kind":"RepoCategoryEmpty","target":{"Category":"CategoryEmpty"},"message":null}
+{"kind":"RepoCategoriesUnused","target":{"Repo":"qa-primary"},"message":"unused"}

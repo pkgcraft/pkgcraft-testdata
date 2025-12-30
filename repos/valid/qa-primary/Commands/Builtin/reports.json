@@ -1,2 +1,2 @@
-{"kind":"Builtin","scope":{"Version":["Commands/Builtin-0",{"line":9,"column":2}]},"message":"find uses doman"}
-{"kind":"Builtin","scope":{"Version":["Commands/Builtin-0",{"line":13,"column":9}]},"message":"xargs uses doins"}
+{"kind":"Builtin","target":{"Version":["Commands/Builtin-0",{"line":9,"column":2}]},"message":"find uses doman"}
+{"kind":"Builtin","target":{"Version":["Commands/Builtin-0",{"line":13,"column":9}]},"message":"xargs uses doins"}

@@ -1,4 +1,4 @@
-{"scope":{"Version":["Ignore/IgnoreUnused-0",null]},"kind":"IgnoreInvalid","message":"invalid report: Invalid"}
-{"scope":{"Package":"Ignore/IgnoreUnused"},"kind":"IgnoreInvalid","message":"invalid report set: Invalid"}
-{"scope":{"Category":"Ignore"},"kind":"IgnoreInvalid","message":"invalid report set: Invalid"}
-{"scope":{"Repo":"qa-primary"},"kind":"IgnoreInvalid","message":"invalid report: Invalid"}
+{"target":{"Version":["Ignore/IgnoreUnused-0",null]},"kind":"IgnoreInvalid","message":"invalid report: Invalid"}
+{"target":{"Package":"Ignore/IgnoreUnused"},"kind":"IgnoreInvalid","message":"invalid report set: Invalid"}
+{"target":{"Category":"Ignore"},"kind":"IgnoreInvalid","message":"invalid report set: Invalid"}
+{"target":{"Repo":"qa-primary"},"kind":"IgnoreInvalid","message":"invalid report: Invalid"}

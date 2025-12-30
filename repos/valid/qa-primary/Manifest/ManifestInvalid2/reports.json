@@ -1,1 +1,1 @@
-{"scope":{"Package":"Manifest/ManifestInvalid2"},"kind":"ManifestInvalid","message":"file: missing hashes: BLAKE2B, SHA512"}
+{"target":{"Package":"Manifest/ManifestInvalid2"},"kind":"ManifestInvalid","message":"file: missing hashes: BLAKE2B, SHA512"}

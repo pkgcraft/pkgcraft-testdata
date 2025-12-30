@@ -1,1 +1,1 @@
-{"kind":"MetadataError","scope":{"Version":["description/none-8",null]},"message":"missing required value: DESCRIPTION"}
+{"kind":"MetadataError","target":{"Version":["description/none-8",null]},"message":"missing required value: DESCRIPTION"}

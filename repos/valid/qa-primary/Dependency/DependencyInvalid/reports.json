@@ -1,9 +1,9 @@
-{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-0",null]},"message":"DEPEND: = slot operator with subslot: stub/slotted:1/0="}
-{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-1",null]},"message":"DEPEND: = slot operator with blocker: !stub/slotted:0="}
-{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-1",null]},"message":"PDEPEND: = slot operator invalid: stub/slotted:1="}
-{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-2",null]},"message":"DEPEND: = slot operator in any-of: stub/slotted:1="}
-{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-2",null]},"message":"RDEPEND: = slot operator in any-of: stub/slotted:1="}
-{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-3",null]},"message":"DEPEND: blocker matches package: !Dependency/DependencyInvalid"}
-{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-3",null]},"message":"RDEPEND: blocker matches package: !!>=Dependency/DependencyInvalid-3"}
-{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-4",null]},"message":"DEPEND: missing IUSE=u1: stub/pkg[u1?]"}
-{"kind":"DependencyInvalid","scope":{"Version":["Dependency/DependencyInvalid-4",null]},"message":"RDEPEND: missing IUSE=u2: stub/pkg[!u2?]"}
+{"kind":"DependencyInvalid","target":{"Version":["Dependency/DependencyInvalid-0",null]},"message":"DEPEND: = slot operator with subslot: stub/slotted:1/0="}
+{"kind":"DependencyInvalid","target":{"Version":["Dependency/DependencyInvalid-1",null]},"message":"DEPEND: = slot operator with blocker: !stub/slotted:0="}
+{"kind":"DependencyInvalid","target":{"Version":["Dependency/DependencyInvalid-1",null]},"message":"PDEPEND: = slot operator invalid: stub/slotted:1="}
+{"kind":"DependencyInvalid","target":{"Version":["Dependency/DependencyInvalid-2",null]},"message":"DEPEND: = slot operator in any-of: stub/slotted:1="}
+{"kind":"DependencyInvalid","target":{"Version":["Dependency/DependencyInvalid-2",null]},"message":"RDEPEND: = slot operator in any-of: stub/slotted:1="}
+{"kind":"DependencyInvalid","target":{"Version":["Dependency/DependencyInvalid-3",null]},"message":"DEPEND: blocker matches package: !Dependency/DependencyInvalid"}
+{"kind":"DependencyInvalid","target":{"Version":["Dependency/DependencyInvalid-3",null]},"message":"RDEPEND: blocker matches package: !!>=Dependency/DependencyInvalid-3"}
+{"kind":"DependencyInvalid","target":{"Version":["Dependency/DependencyInvalid-4",null]},"message":"DEPEND: missing IUSE=u1: stub/pkg[u1?]"}
+{"kind":"DependencyInvalid","target":{"Version":["Dependency/DependencyInvalid-4",null]},"message":"RDEPEND: missing IUSE=u2: stub/pkg[!u2?]"}

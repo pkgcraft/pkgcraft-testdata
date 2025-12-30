@@ -1,1 +1,1 @@
-{"kind":"UseGlobalUnused","scope":{"Repo":"qa-primary"},"message":"unused"}
+{"kind":"UseGlobalUnused","target":{"Repo":"qa-primary"},"message":"unused"}

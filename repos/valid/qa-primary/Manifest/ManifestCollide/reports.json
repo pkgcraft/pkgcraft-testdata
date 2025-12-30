@@ -1,1 +1,1 @@
-{"kind":"ManifestCollide","scope":{"Package":"Manifest/ManifestCollide"},"message":"collide1, collide2"}
+{"kind":"ManifestCollide","target":{"Package":"Manifest/ManifestCollide"},"message":"collide1, collide2"}

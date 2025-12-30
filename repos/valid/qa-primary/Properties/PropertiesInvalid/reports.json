@@ -1,1 +1,1 @@
-{"kind":"PropertiesInvalid","scope":{"Version":["Properties/PropertiesInvalid-0",null]},"message":"property2, property3"}
+{"kind":"PropertiesInvalid","target":{"Version":["Properties/PropertiesInvalid-0",null]},"message":"property2, property3"}
