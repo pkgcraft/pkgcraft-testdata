@@ -5,6 +5,7 @@ DependencySlotMissing
 EapiStale
 EapiStatus
 EbuildName
+EbuildMetadata
 Filesdir
 Homepage
 Ignore
@@ -14,7 +15,6 @@ KeywordsDropped
 License
 Live
 Manifest
-Metadata
 Properties
 Restrict
 RestrictTestMissing
