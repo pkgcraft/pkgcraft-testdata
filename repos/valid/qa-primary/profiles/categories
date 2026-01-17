@@ -6,6 +6,7 @@ EapiStale
 EapiStatus
 EbuildName
 EbuildMetadata
+EbuildMetadataXml
 Filesdir
 Homepage
 Ignore
@@ -20,7 +21,6 @@ Restrict
 RestrictTestMissing
 SrcUri
 UnstableOnly
-UseLocal
 VariableOrder
 Variables
 Whitespace

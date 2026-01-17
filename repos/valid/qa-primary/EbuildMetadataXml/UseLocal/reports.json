@@ -1,0 +1,4 @@
+{"target":{"Package":"EbuildMetadataXml/UseLocal"},"kind":"UseLocalDescMissing","message":"missing"}
+{"target":{"Package":"EbuildMetadataXml/UseLocal"},"kind":"UseLocalGlobal","message":"global"}
+{"target":{"Package":"EbuildMetadataXml/UseLocal"},"kind":"UseLocalUnsorted","message":"unsorted flag: used (sorted: global)"}
+{"target":{"Package":"EbuildMetadataXml/UseLocal"},"kind":"UseLocalUnused","message":"unused"}
