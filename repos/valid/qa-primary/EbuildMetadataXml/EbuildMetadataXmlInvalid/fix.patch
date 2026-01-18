@@ -1,0 +1,11 @@
+diff -x fix.patch -Naur EbuildMetadataXmlInvalid.orig/metadata.xml EbuildMetadataXmlInvalid/metadata.xml
+--- EbuildMetadataXmlInvalid.orig/metadata.xml	2026-01-17 18:36:51.196936248 -0700
++++ EbuildMetadataXmlInvalid/metadata.xml	2026-01-17 18:36:44.275757878 -0700
+@@ -2,6 +2,6 @@
+ <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+ <pkgmetadata>
+ 	<use>
+-		<flag name="used">used flag description</use>
++		<flag name="used">used flag description</flag>
+ 	</use>
+ </pkgmetadata>
